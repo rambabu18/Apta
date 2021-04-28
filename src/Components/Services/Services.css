@@ -1,0 +1,47 @@
+.service_container{
+    position: relative;
+    top: 30px;
+    margin-bottom: 100px;
+}
+.services_our_service_text{
+    position: relative;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(68, 114, 196) !important;
+    text-align: center;
+}
+.service_card{
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+    transition: all ease 200ms;
+}
+.service_card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.service_row_cards{
+  position: relative;
+  top: 40px;
+}
+.service_card_header{
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--text-color-fff);
+}
+.service_card_title{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: oblique;
+    color: var(--text-color-fff);
+}
+.service_card_text{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: oblique;
+    color: var(--text-color-fff);
+}
+
+

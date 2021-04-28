@@ -1,0 +1,76 @@
+.home_page_container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color-846);
+}
+.home_page_welcome{
+    position: relative;
+    top: 60px;
+    font-size: 35px;
+    font-weight: 900;
+    font-style: oblique;
+    color: var(--text-color-fff);
+}
+.home_page_text{
+    position: relative;
+    top: 150px;
+    font-size: 35px;
+    font-weight: 900;
+    font-style: oblique;
+    color: var(--text-color-fff);
+    text-align: center;
+}
+.home_page_text1{
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--text-color-fff);
+    text-align: center;
+}
+.home_page_text2{
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--text-color-fff);
+    text-align: center;
+}
+.home_page_btn{
+    position: relative;
+    top: 180px;
+    left: 580px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--text-color-fff);
+    border-radius: 20px;
+}
+
+/* Services CSS */
+.home_page_container1{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 80vh;
+}
+
+/* About Us CSS */
+.home_page_container2{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(120, 120, 120);
+}
+
+/* Footer Css */
+.home_page_container3{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 20vh;
+}
