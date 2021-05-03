@@ -1,8 +1,13 @@
 .home_page_container{
     position: relative;
     width: 100%;
+    height: 100%;
+    background-color:var(--text-color-000);
+}
+.carousel_slide1{
+    position:relative;
+    width: 100%;
     height: 100vh;
-    background-color: var(--bg-color-846);
 }
 .home_page_welcome{
     position: relative;
@@ -14,7 +19,16 @@
 }
 .home_page_text{
     position: relative;
-    top: 150px;
+    top: -250px;
+    font-size: 35px;
+    font-weight: 900;
+    font-style: oblique;
+    color: var(--text-color-fff);
+    text-align: center;
+}
+.home_page_text3{
+    position: relative;
+    top: -200px;
     font-size: 35px;
     font-weight: 900;
     font-style: oblique;
@@ -23,7 +37,7 @@
 }
 .home_page_text1{
     position: relative;
-    top: 150px;
+    top: -50px;
     font-size: 30px;
     font-weight: 600;
     font-style: italic;
@@ -32,18 +46,19 @@
 }
 .home_page_text2{
     position: relative;
-    top: 150px;
+    top: -50px;
     font-size: 30px;
     font-weight: 600;
     font-style: italic;
     color: var(--text-color-fff);
     text-align: center;
+    text-transform: capitalize;
 }
 .home_page_btn{
     position: relative;
-    top: 180px;
-    left: 580px;
-    font-size: 20px;
+    top: -30px;
+    left: 0px;
+    font-size: 16px;
     font-weight: 600;
     font-style: italic;
     color: var(--text-color-fff);
@@ -64,13 +79,14 @@
     top: 50px;
     width: 100%;
     height: 60vh;
-    background-color: rgb(120, 120, 120);
+    background-color: #f0f4f8;
 }
 
 /* Footer Css */
 .home_page_container3{
     position: relative;
-    top: 50px;
+    margin-top: 650px;
     width: 100%;
-    height: 20vh;
+    height: 50vh;
+    background-color: #d5d5d5;
 }

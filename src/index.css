@@ -1,4 +1,4 @@
-body{
+html,body{
   margin: 0;
   padding: 0;
   height: 100%;
@@ -7,5 +7,6 @@ body{
 }
 :root{
   --bg-color-846:#8463F4; 
-  --text-color-fff:#FFFFFF
+  --text-color-fff:#FFFFFF;
+  --text-color-000:#000000;
 }

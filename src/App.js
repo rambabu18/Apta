@@ -3,6 +3,7 @@ import './App.css';
 import TopNavBar from './Components/TopNavBar/TopNavBar';
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import HomePage from './Components/HomePage/HomePage';
+import Footer from './Components/Footer/Footer';
  
 
 function App() {

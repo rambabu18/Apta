@@ -4,18 +4,25 @@ import './About.css'
 
 export default function About() {
     return (
-        <Container fluid className='about_container' >
+        <Container  className='about_container' >
             <Row>
                 <Col>
-                 <span className='about_text' > About Us</span>
+                 <span className='about_text'> A New and Better Way </span>
                 </Col>
             </Row>
             <Row>
-                <Col>
-                <span className='about_text1' >
-                  Apta IT Solutions is a leading organization that provides Technology Consulting, HR Consulting and Advanced Learning services in trending technologies.<br/> With over 12 years of experience in the field, we are the technology and recruitment partners of various Government agencies and leading MNCs.
-                  <br/> With technology growing at an unstoppable rate,it is now a necessity for the world to grow with it. Our aim is to provide customer-centric <br/> high-quality solutions to bridge the gap between businesses, individuals and technological trends.
-                </span>
+                <Col xl={10} >
+                <p className='about_text1'>Apta IT Solutions is a global financial technology and professional services firm, delivering solutions to some of the world's most sophisticated financial institutions, including hedge funds, banks, and institutional asset managers.</p>
+                </Col>
+            </Row>
+            <Row>
+                <Col xl={10}>
+                <p className='about_text1'>Expertly designed to achieve a single source of truth throughout a client's ecosystem, Apta's cloud-native technology is built to systematize the most complex tasks.</p>
+                </Col>
+            </Row>
+             <Row>
+                <Col xl={10}>
+                <p className='about_text1'>By partnering with us, Apta can bring increased efficiency to your organization, freeing team members to focus on higher-level business issues. Unlocking this capacity, Apta can empower you to support new strategies, new capital, and new regulatory requirements without increasing headcount or technology spend.</p>
                 </Col>
             </Row>
         </Container>
