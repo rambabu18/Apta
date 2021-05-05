@@ -19,7 +19,7 @@ function App() {
      <Router>
      <TopNavBar/>
        <Switch>
-         <Route path='/home' component={HomePage} />
+         <Route path='/' component={HomePage} />
          <Route path='/services' component={AptaServices} />
          <Route path='/web/development' component={WebDevelopment} />
          <Route path='/mobile/development' component={MobileDevelopment} />

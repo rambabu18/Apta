@@ -21,11 +21,11 @@ export default function TopNavBar() {
     return (
         <div>
             <Navbar className='top_nav_bar' collapseOnSelect fixed='top' expand="lg" bg="light" variant="light">
-                <Navbar.Brand as={Link} to='/home' className='top_nav_brand'>Apta IT Solutions</Navbar.Brand>
+                <Navbar.Brand as={Link} to='/' className='top_nav_brand'>Apta IT Solutions</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto top_nav_nav ">
-                    <NavLink activeClassName='top_nav_active_links' to='/home' as={Link} className='top_nav_links'>Home</NavLink>
+                    <NavLink activeClassName='top_nav_active_links' to='/' as={Link} className='top_nav_links'>Home</NavLink>
                     <NavLink className='top_nav_links'
                     activeClassName='top_nav_active_links'
                     as={Link}
