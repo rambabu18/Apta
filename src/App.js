@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import TopNavBar from './Components/TopNavBar/TopNavBar';
-import { BrowserRouter as Router, Switch, Route, Link, Redirect, useHistory} from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link, Redirect, useHistory} from "react-router-dom";
 import HomePage from './Components/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
 import AptaServices from './Components/AptaServices/AptaServices';
@@ -17,7 +17,7 @@ function App() {
   const history = useHistory();
   return (
     <div className="App">
-     <Router history={history}>
+     <Router history={history} basename='/' >
      <TopNavBar/>
        <Switch>
          <Route exact path='/' component={HomePage} />
