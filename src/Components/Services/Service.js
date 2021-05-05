@@ -11,13 +11,13 @@ export default function Service() {
                 </Col>
             </Row>
             <Row className='service_row_cards' >
-                <Col xl={12} >
+                <Col xl={12} lg={12} md={12} sm={12} xs={12} >
                     <Card className='service_card' >
                         <Card.Body>
                             <Card.Title className='service_card_title' > The Apta </Card.Title>
                             <Card.Title className='service_card_title' > Platform</Card.Title>
                             <Card.Text className='service_card_text'>
-                                <Col className='service_card_text_col' xl={6}>
+                                <Col className='service_card_text_col' xl={6} xs={12} sm={12} >
                                     A comprehensive and fully integrated technology platform combined with
                                     a team of experienced hedge fund professionals designed to solve the
                                     most complex post-trade challenges of asset managers.
@@ -65,7 +65,7 @@ export default function Service() {
                 </Col> */}
             </Row>
             <Row className='service_row_cards1' >
-                <Col xl={6} >
+                <Col xl={6} lg={6} md={6} sm={12} xs={12} >
                     <Card className='service_card1'>
                         <Card.Body>
                             <Card.Title className='service_card_title'>Mobile Developement</Card.Title>
@@ -77,7 +77,7 @@ export default function Service() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col xl={6} >
+                <Col xl={6} lg={6} md={6} sm={12} xs={12} >
                     <Card className='service_card2' >
                         <Card.Body>
                             <Card.Title className='service_card_title'>Web Developement</Card.Title>
@@ -91,7 +91,7 @@ export default function Service() {
                 </Col>
             </Row>
             <Row className='service_row_cards2'>
-                <Col xl={6} >
+                <Col xl={6} lg={6} md={6} sm={12} xs={12} >
                     <Card className='service_card3' >
                         <Card.Body>
                             <Card.Title className='service_card_title'>Digital Marketing</Card.Title>

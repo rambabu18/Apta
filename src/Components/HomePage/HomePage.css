@@ -2,7 +2,6 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background-color:var(--text-color-000);
 }
 .carousel_slide1{
     position:relative;
@@ -66,27 +65,125 @@
 }
 
 /* Services CSS */
-.home_page_container1{
+.home_page_service_container{
     position: relative;
-    top: 50px;
+    top: -80px;
+    /* bottom: 400px; */
     width: 100%;
-    height: 80vh;
+    height: 60vh;
+    margin-bottom: 700px;
 }
 
 /* About Us CSS */
-.home_page_container2{
+.home_page_about_container{
     position: relative;
-    top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
     height: 60vh;
     background-color: #f0f4f8;
 }
 
 /* Footer Css */
-.home_page_container3{
+/* .home_page_footer_container{
     position: relative;
-    margin-top: 650px;
     width: 100%;
     height: 50vh;
     background-color: #d5d5d5;
+} */
+
+@media only screen and (min-width: 370px) and (max-width: 600px) {
+    /* Services CSS */
+.home_page_service_container{
+    position: relative;
+    /* top: 50px; */
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    margin-bottom: 550px;
+}
+
+/* About Us CSS */
+.home_page_about_container{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 90vh;
+    background-color: #f0f4f8;
+}
+
+/* Footer Css */
+.home_page_footer_container{
+    position: relative;
+    /* margin-top: 650px; */
+    width: 100%;
+    height: 60vh;
+    background-color: #d5d5d5;
+}
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+    /* Services CSS */
+.home_page_service_container{
+    position: relative;
+    /* top: 50px; */
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 550px;
+}
+
+/* About Us CSS */
+.home_page_about_container{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 50vh;
+    background-color: #f0f4f8;
+}
+
+/* Footer Css */
+.home_page_footer_container{
+    position: relative;
+    /* margin-top: 650px; */
+    width: 100%;
+    height: 30vh;
+    background-color: #d5d5d5;
+}
+
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1200px) {
+    /* Services CSS */
+.home_page_service_container{
+    position: relative;
+    /* top: 50px; */
+    width: 100%;
+    height: 40vh;
+    margin-top: 50px;
+    margin-bottom: 550px;
+}
+
+/* About Us CSS */
+.home_page_about_container{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 30vh;
+    background-color: #f0f4f8;
+}
+
+/* Footer Css */
+.home_page_footer_container{
+    position: relative;
+    /* margin-top: 650px; */
+    width: 100%;
+    height: 20vh;
+    background-color: #d5d5d5;
+}
+
 }

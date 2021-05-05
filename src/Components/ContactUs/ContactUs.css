@@ -1,0 +1,80 @@
+.contact_container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.contact_row_bg{
+    position: relative;
+    height: 80vh;
+    background-image: url(/src/Utils/Images/p-1181396.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact_row_text{
+    position: relative;
+    margin-top: 10px;
+}
+.contact_col_text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #14aafa;
+    text-align: center;
+}
+.contact_col_text1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #4e4f4f;
+    text-align: center;
+}
+
+.contact_row_form{
+   position: relative;
+   margin-top: 50px;
+}
+
+.contact_col_form{
+  position: relative;
+  left: 150px;
+  margin-left: 140px;
+  
+}
+.contact_row_location{
+    position: relative;
+    margin-top: 30px;
+}
+.contact_location_text1{
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #14aafa;
+    text-align: left;
+}
+.contact_location_text2{
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #4e4f4f;;
+    text-align: left;
+}
+
+.contact_form_btn{
+    position: relative;
+    left: 140px;
+    width: 120px;
+}
+

@@ -12,6 +12,7 @@ export default function HomePage() {
     return (
         <>
             <Container fluid className='home_page_container' >
+                <Row>
                 <Carousel >
                     <Carousel.Item>
                         <img  className="carousel_slide1"  src={Slide1} alt="First slide"  />
@@ -44,28 +45,29 @@ export default function HomePage() {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
+                </Row>
             </Container>
-            <Container className='home_page_container2' fluid>
+            <Container className='home_page_about_container' fluid>
                 <Row>
                     <Col>
                         <About />
                     </Col>
                 </Row>
             </Container>
-            <Container className='home_page_container1' fluid>
+            <Container className='home_page_service_container' fluid>
                 <Row>
                     <Col>
                         <Service />
                     </Col>
                 </Row>
             </Container>
-            <Container className='home_page_container3' fluid>
+            {/* <Container className='home_page_footer_container' fluid>
                 <Row>
                     <Col>
                         <Footer />
                     </Col>
                 </Row>
-            </Container>
+            </Container> */}
             {/* <Container className='home_page_container2' fluid>
                 <Row>
                     <Col>
