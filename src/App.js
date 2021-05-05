@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import TopNavBar from './Components/TopNavBar/TopNavBar';
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, Redirect, useHistory} from "react-router-dom";
 import HomePage from './Components/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
 import AptaServices from './Components/AptaServices/AptaServices';
@@ -14,19 +14,21 @@ import MobileDevelopment from './Components/AptaServices/MobileDevelopment';
  
 
 function App() {
+  const history = useHistory();
   return (
     <div className="App">
-     <Router>
+     <Router history={history}>
      <TopNavBar/>
        <Switch>
-         <Route path='/' component={HomePage} />
-         <Route path='/services' component={AptaServices} />
-         <Route path='/web/development' component={WebDevelopment} />
-         <Route path='/mobile/development' component={MobileDevelopment} />
-         <Route path='/digital/marketing' component={DigitalMarketing} />
-         <Route path='/about' component={AboutUs} />
-         <Route path='/our/work' component={OurWork} />
-         <Route path='/contact' component={ContactUs} />
+         <Route exact path='/' component={HomePage} />
+         <Route exact path='/services' component={AptaServices} />
+         <Route exact path='/web/development' component={WebDevelopment} />
+         <Route exact path='/mobile/development' component={MobileDevelopment} />
+         <Route exact path='/digital/marketing' component={DigitalMarketing} />
+         <Route exact path='/about' component={AboutUs} />
+         <Route exact path='/our/work' component={OurWork} />
+         <Route exact path='/contact' component={ContactUs} />
+         <Redirect from="*" to="/" />
        </Switch>
        <Footer/>
      </Router>
