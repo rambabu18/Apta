@@ -74,7 +74,95 @@
 
 .contact_form_btn{
     position: relative;
-    left: 140px;
+    left: 120px;
     width: 120px;
 }
+
+@media only screen and (min-width: 370px) and (max-width: 600px) {
+    .contact_col_form{
+        position: relative;
+        left: 0px;
+        margin-left: 0px;
+      }
+
+      .contact_location_text1{
+        font-size: 1.4rem;
+        font-style: normal;
+        line-height: 1.5;
+        font-weight: 700;
+        color: #14aafa;
+        text-align: center;
+    }
+    .contact_location_text2{
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #4e4f4f;;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1020px) {
+    .contact_col_form{
+        position: relative;
+        left: 0px;
+        margin-left: 0px;
+      }
+
+      .contact_location_text1{
+        font-size: 1.4rem;
+        font-style: normal;
+        line-height: 1.5;
+        font-weight: 700;
+        color: #14aafa;
+        text-align: center;
+    }
+    .contact_location_text2{
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #4e4f4f;;
+        text-align: center;
+    }
+
+    .contact_form_btn{
+        position: relative;
+        left: 310px;
+        width: 120px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+    .contact_col_form{
+        position: relative;
+        left: 60px;
+        margin-left: 150px;
+      }
+
+      .contact_location_text1{
+        font-size: 1.4rem;
+        font-style: normal;
+        line-height: 1.5;
+        font-weight: 700;
+        color: #14aafa;
+        text-align: center;
+    }
+    .contact_location_text2{
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #4e4f4f;;
+        text-align: center;
+    }
+
+    .contact_form_btn{
+        position: relative;
+        left: 180px;
+        width: 120px;
+    }
+}
+
 

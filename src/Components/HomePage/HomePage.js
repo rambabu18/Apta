@@ -4,7 +4,7 @@ import About from '../About/About'
 import Footer from '../Footer/Footer'
 import Service from '../Services/Service'
 import './HomePage.css'
-import Slide1 from '../../Utils/Images/p-2081166.jpg'
+import Slide1 from '../../Utils/Images/p-602607.jpg'
 import Slide2 from '../../Utils/Images/p-712786.jpg'
 import Slide3 from '../../Utils/Images/p-7974.jpg'
 
@@ -54,6 +54,7 @@ export default function HomePage() {
                     </Col>
                 </Row>
             </Container>
+            
             <Container className='home_page_service_container' fluid>
                 <Row>
                     <Col>

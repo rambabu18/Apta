@@ -2,7 +2,7 @@ html,body{
   margin: 0;
   padding: 0;
   height: 100%;
-  max-height: auto;
+  max-height: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 :root{

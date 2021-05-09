@@ -15,7 +15,7 @@ export default function ContactUs() {
 
             </Row>
             <Row className='contact_row_form' >
-                <Col className='contact_col_form' xl={6} >
+                <Col className='contact_col_form' xl={6} lg={6} >
                     <Form>
                         <Form.Group as={Col} xl={8} controlId="formBasicEmail">
                             <Form.Label>Name</Form.Label>
@@ -38,19 +38,18 @@ export default function ContactUs() {
                         </Button>
                     </Form>
                 </Col>
-                <Col xl={4} >
+                <Col xl={4} lg={4} >
                    <Row className='contact_row_location' >
                     <Col xl={6} >
                     <h3 className='contact_location_text1'>Location</h3>
-                    <h5 className='contact_location_text2' >H No 357 Hmt Hills</h5>
-                    <h5 className='contact_location_text2'> Jntu Kukatpally Hyderabad</h5>
+                    <h5 className='contact_location_text2'> Kukatpally Hyderabad</h5>
                     <h6 className='contact_location_text2'>Telangana, India 500072</h6>
                     </Col>
                    </Row>
                    <Row>
                     <Col xl={4} >
                     <h3 className='contact_location_text1'>Contact Us</h3>
-                    <h6 className='contact_location_text2'>9848032919</h6>
+                    <h6 className='contact_location_text2'>+919848032919</h6>
                     <h6 className='contact_location_text2'>apta@gmail.com</h6>
                     </Col>
                    </Row>

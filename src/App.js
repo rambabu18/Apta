@@ -7,10 +7,10 @@ import Footer from './Components/Footer/Footer';
 import AptaServices from './Components/AptaServices/AptaServices';
 import WebDevelopment from './Components/AptaServices/WebDevelopment';
 import AboutUs from './Components/About/AboutUs';
-import OurWork from './Components/OurWork/OurWork';
 import ContactUs from './Components/ContactUs/ContactUs';
 import DigitalMarketing from './Components/AptaServices/DigitalMarketing';
 import MobileDevelopment from './Components/AptaServices/MobileDevelopment';
+import OurTeam from './Components/OurTeam/OurTeam';
  
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
          <Route exact path='/mobile/development' component={MobileDevelopment} />
          <Route exact path='/digital/marketing' component={DigitalMarketing} />
          <Route exact path='/about' component={AboutUs} />
-         <Route exact path='/our/work' component={OurWork} />
+         <Route exact path='/our/work' component={OurTeam} />
          <Route exact path='/contact' component={ContactUs} />
          <Redirect from="*" to="/" />
        </Switch>
