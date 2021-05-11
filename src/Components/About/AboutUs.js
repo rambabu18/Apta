@@ -17,7 +17,7 @@ export default function AboutUs() {
             <Row className='about_us_row_text1' >
                 <Col className='about_us_col_text_p' xl={3} > 
                 <img className='about_us_setting_icon' src={SettingIcon} alt='setting' /> <br/>
-                <span className='about_us_text_span' >Creativity unique Designers.</span> 
+                <span className='about_us_text_span' >Creativity Unique Designers.</span> 
                 <p className='about_us_text_p' > Combining strategizing skills with design and technology, we at Web apps, create the best-in-class web designs that are effective and impressive with the client's target market. </p>
                 </Col>
                 <Col className='about_us_col_text_p' xl={3} > 

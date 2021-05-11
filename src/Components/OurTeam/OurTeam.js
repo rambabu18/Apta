@@ -26,7 +26,7 @@ export default function OurTeam() {
                 <Col xl={12} className='our_team_row_team_h3' >
                     <h3  >Global Management Team</h3>
                 </Col>
-                <Col>
+                <Col xl={4}>
                     <Figure>
                         <Figure.Image
                             width={171}
@@ -40,7 +40,21 @@ export default function OurTeam() {
                         </Figure.Caption>
                     </Figure>
                 </Col>
-                <Col>
+                <Col xl={4}>
+                    <Figure>
+                        <Figure.Image
+                            width={171}
+                            height={180}
+                            alt="Loading.."
+                            src={GirlIcon}
+                        />
+                        <Figure.Caption>
+                            <h6 className='our_team_global_h3'>Sunitha</h6>
+                            <h6 className='our_team_global_h6'>Senior Developer </h6>
+                        </Figure.Caption>
+                    </Figure>
+                </Col>
+                <Col xl={4}>
                     <Figure>
                         <Figure.Image
                             width={171}
@@ -54,7 +68,7 @@ export default function OurTeam() {
                         </Figure.Caption>
                     </Figure>
                 </Col>
-                <Col>
+                <Col xl={4}>
                     <Figure>
                         <Figure.Image
                             width={171}
@@ -71,21 +85,7 @@ export default function OurTeam() {
             </Row>
             <Row className='our_team_row_regional_team' >
                 <Col xl={12} className='our_team_row_team_h3'> <h3>Regional Leadership</h3>  </Col>
-                <Col>
-                    <Figure>
-                        <Figure.Image
-                            width={171}
-                            height={180}
-                            alt="Loading.."
-                            src={MenIcon}
-                        />
-                        <Figure.Caption>
-                            <h6 className='our_team_global_h3'>Siva Kumar</h6>
-                            <h6 className='our_team_global_h6'> Managing Director </h6>
-                        </Figure.Caption>
-                    </Figure>
-                </Col>
-                <Col>
+                <Col xl={4} >
                     <Figure>
                         <Figure.Image
                             width={171}
@@ -99,7 +99,7 @@ export default function OurTeam() {
                         </Figure.Caption>
                     </Figure>
                 </Col>
-                <Col>
+                <Col xl={4} >
                     <Figure>
                         <Figure.Image
                             width={171}

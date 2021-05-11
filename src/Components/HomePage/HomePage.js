@@ -4,7 +4,8 @@ import About from '../About/About'
 import Footer from '../Footer/Footer'
 import Service from '../Services/Service'
 import './HomePage.css'
-import Slide1 from '../../Utils/Images/p-602607.jpg'
+import Slide1 from '../../Utils/Images/p-374870.jpg'
+import Slide4 from '../../Utils/Images/budha.jpg'
 import Slide2 from '../../Utils/Images/p-712786.jpg'
 import Slide3 from '../../Utils/Images/p-7974.jpg'
 
@@ -17,7 +18,17 @@ export default function HomePage() {
                     <Carousel.Item>
                         <img  className="carousel_slide1"  src={Slide1} alt="First slide"  />
                         <Carousel.Caption>
-                            <h3 className='home_page_text'>Apta IT Solutions</h3>
+                            <h3 className='home_page_text'> Welcome to Apta IT Solutions</h3>
+                            <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
+                            <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
+                            <Button className='home_page_btn'>Explore more</Button>
+                            <p>“We love creative and design with passion of building epic web experiences to blow people's minds.”</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img  className="carousel_slide1"  src={Slide4} alt="Loading.."  />
+                        <Carousel.Caption>
+                            <h3 className='home_page_text'>Apta IT Solutions is a young and energetic organization providing web based solutions.</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
                             <Button className='home_page_btn'>Explore more</Button>
