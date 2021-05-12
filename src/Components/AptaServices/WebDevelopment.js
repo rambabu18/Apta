@@ -32,8 +32,8 @@ export default function WebDevelopment() {
                 </Col>
                 <Col className='web_development_col2' xl={3} >
                     <img className='web_development_setting_icon' src={ControlIcon} alt='Loading..' /> <br />
-                    <span className='web_development_text_span' >Collaborative Design Process</span>
-                    <p className='web_development_text_p' > Is where teams embrace the entire process of creating an asset, from brainstorming to allocating tasks and team members. </p>
+                    <span className='web_development_text_span' >WEB APP SUPPORT & MAINTENANCE</span>
+                    <p className='web_development_text_p' >We ensure that your software stays alive and relevant by providing a comprehensive web app support and maintenance services. </p>
                 </Col>
             </Row>
             <Row className='web_development_row1'>

@@ -8,8 +8,10 @@ import Slide1 from '../../Utils/Images/p-374870.jpg'
 import Slide4 from '../../Utils/Images/budha.jpg'
 import Slide2 from '../../Utils/Images/p-712786.jpg'
 import Slide3 from '../../Utils/Images/p-7974.jpg'
+import { useHistory } from 'react-router'
 
 export default function HomePage() {
+    const history = useHistory();
     return (
         <>
             <Container fluid className='home_page_container' >
@@ -21,7 +23,7 @@ export default function HomePage() {
                             <h3 className='home_page_text'> Welcome to Apta IT Solutions</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
-                            <Button className='home_page_btn'>Explore more</Button>
+                            <Button onClick={()=>history.push('/about')} className='home_page_btn'>Explore more</Button>
                             <p>“We love creative and design with passion of building epic web experiences to blow people's minds.”</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -31,7 +33,7 @@ export default function HomePage() {
                             <h3 className='home_page_text'>Apta IT Solutions is a young and energetic organization providing web based solutions.</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
-                            <Button className='home_page_btn'>Explore more</Button>
+                            <Button onClick={()=>history.push('/about')} className='home_page_btn'>Explore more</Button>
                             <p>“We love creative and design with passion of building epic web experiences to blow people's minds.”</p>
                         </Carousel.Caption>
                     </Carousel.Item>

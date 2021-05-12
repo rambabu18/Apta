@@ -1,35 +1,56 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 import './MobileDevelopment.css'
+import AppleIcon from '../../Utils/Icons/apple.svg'
+import AndroidIcon from '../../Utils/Icons/android.svg'
+import CrossIcon from '../../Utils/Icons/cross-platform.svg'
+import NativeIcon from '../../Utils/Icons/analysis.svg'
+import HybridIcon from '../../Utils/Icons/refresh.svg'
+import ProgressIcon from '../../Utils/Icons/optimization.svg'
 
 export default function MobileDevelopment() {
     return (
-        <Container className='mobile_dev_container' >
-            <Row className='apta_services_row_text_mobile'>
-                <Col> <span className='services_apta_service_text'> Mobile Developement </span> </Col>
-
+        <Container fluid className='mobile_dev_container' >
+            <Row className='mobile_dev_row'>
+                <Col xl={12} className='mobile_dev_col'>  Mobile Application Developement  </Col>
+                <Col xl={12} className='mobile_dev_col1' >We offer a full cycle of application design, integration and management services.</Col>
             </Row>
-            <Row className='apta_services_row_text' >
-                <Col xl={10} className='apta_services_col_text' >
-                    <p>
-                        Apta's services are designed to support the world’s most sophisticated asset managers. Offered as individual products, a series of fully integrated modules, or as a comprehensive platform, each solution is highly customizable to meet our clients’ needs, for both today and tomorrow.
-                    </p>
+            <Row>
+                <Col className='mobile_dev_col2'>Mobile App Development Services <br/> For Numerous Platforms</Col>
+            </Row>
+            <Row className='mobile_dev_row1' >
+                <Col className='mobile_dev_col3' xl={3} >
+                 <img src={AppleIcon} alt='Loading..' className='mobile_dev_icon' /> <br />
+                 <span className='mobile_dev_text_span' >iOS APP DEVELOPMENT</span>
+                <p className='mobile_dev_text_p' > Enjoying the glory of more than a million app downloads, Terasol has successfully built and delivered amazing iOS apps. With an unmatchable experience that has come from developing iOS apps for a number of industries, we have left our footprint across the world, helping many clients breathe life into their app idea. </p>
+                </Col>
+                <Col className='mobile_dev_col3' xl={3} >
+                 <img src={AndroidIcon} alt='Loading..' className='mobile_dev_icon' /> <br />
+                 <span className='mobile_dev_text_span' >ANDROID APP DEVELOPMENT</span>
+                <p className='mobile_dev_text_p' > Each Android app developed by our team is a product of thorough market analysis, industry research, and latest technology stack. Each Android app by Terasol goes through rigorous quality testing and sets a benchmark for responsiveness, design and pleasant user experience. </p>
+                </Col>
+                <Col className='mobile_dev_col3' xl={3} >
+                 <img src={CrossIcon} alt='Loading..' className='mobile_dev_icon' /> <br />
+                 <span className='mobile_dev_text_span' >CROSS-PLATFORM APPS</span>
+                <p className='mobile_dev_text_p' > Why face technical issues, bugs and vary UX just to widen your reach to your target audiences? Our multi-platform mobile app solutions can provide consistent branding, user familiarity and decrease costs. We use cutting edge technologies like PhoneGap and React Native to create custom apps that provide a sense of belongingness on every platform. </p>
                 </Col>
             </Row>
-            <Row className='service_row_cards1' >
-                <Col xl={12} lg={12} md={12} sm={12} xs={12} >
-                    <Card className='service_card1'>
-                        <Card.Body>
-                            <Card.Title className='service_card_title'>Mobile Developement</Card.Title>
-                            <Card.Text className='service_card_text'>
-                                <Col xl={12} >
-                                    Right from strategy to app design and development services to testing and deployment, we adhere to proven global standards and methodology to deliver enterprise-grade applications.
-                              </Col>
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+            <Row className='mobile_dev_row1' >
+                <Col className='mobile_dev_col3' xl={3} >
+                 <img src={NativeIcon} alt='Loading..' className='mobile_dev_icon' /> <br />
+                 <span className='mobile_dev_text_span' >Testing</span>
+                <p className='mobile_dev_text_p' > Our testing offerings involve manual testing, automated testing, security testing, cross-functional and compatibility testing. In addition to this, we also test the API. </p>
                 </Col>
-
+                <Col className='mobile_dev_col3' xl={3} >
+                 <img src={HybridIcon} alt='Loading..' className='mobile_dev_icon' /> <br />
+                 <span className='mobile_dev_text_span' >Upgrades</span>
+                <p className='mobile_dev_text_p' > To keep our customers close to the latest market trends we provide upgrade service to transform their applications to the newer and advanced versions of platforms. </p>
+                </Col>
+                <Col className='mobile_dev_col3' xl={3} >
+                 <img src={ProgressIcon} alt='Loading..' className='mobile_dev_icon' /> <br />
+                 <span className='mobile_dev_text_span' >Maintenance</span>
+                <p className='mobile_dev_text_p' > Maintenance is an integral part of our mobile app development services. We offer maintenance services like operational level support, extensions of features, performance enhancements. </p>
+                </Col>
             </Row>
         </Container>
     )
