@@ -13,8 +13,8 @@ export default function WebDevelopment() {
     return (
         <Container fluid className='web_development_container' >
             <Row className='web_development_row'>
-                <Col xl={12}> <span className='web_development_col_text'>Web Design and Development </span> </Col>
-                <Col xl={12} className='web_development_col_text1'>  We don't just build websites, we build websites that SELLS </Col>
+                <Col xl={12}> <span className='web_development_col_text'> <div className='web_development_col_span'> Web Design and Development </div> </span> </Col>
+                {/* <Col xl={12} className='web_development_col_text1'>  We don't just build websites, we build websites that SELLS </Col> */}
             </Row>
             <Row>
                 <Col className='web_development_col1_text'> Web design is not just about creating pretty layouts.<br /> It’s about understanding the marketing challenge behind your business. </Col>

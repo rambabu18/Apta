@@ -20,7 +20,7 @@ export default function HomePage() {
                     <Carousel.Item>
                         <img  className="carousel_slide1"  src={Slide1} alt="First slide"  />
                         <Carousel.Caption>
-                            <h3 className='home_page_text'> Welcome to Apta IT Solutions</h3>
+                            <h3 className='home_page_text'> Welcome to Samudayah Technologies</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
                             <Button onClick={()=>history.push('/about')} className='home_page_btn'>Explore more</Button>

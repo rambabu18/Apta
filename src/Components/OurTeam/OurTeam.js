@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Container, Figure, Row } from 'react-bootstrap'
 import './OurTeam.css'
 import GirlIcon from '../../Utils/Icons/girl.svg'
-import MenIcon from '../../Utils/Icons/boss.svg'
+import MenIcon from '../../Utils/Images/Image2.jpeg'
 
 export default function OurTeam() {
     return (
@@ -29,8 +29,7 @@ export default function OurTeam() {
                 <Col xl={4}>
                     <Figure>
                         <Figure.Image
-                            width={171}
-                            height={180}
+                            className='our_team_icon'
                             alt="Loading.."
                             src={MenIcon}
                         />
@@ -43,8 +42,7 @@ export default function OurTeam() {
                 <Col xl={4}>
                     <Figure>
                         <Figure.Image
-                            width={171}
-                            height={180}
+                            className='our_team_icon'
                             alt="Loading.."
                             src={GirlIcon}
                         />
@@ -57,8 +55,7 @@ export default function OurTeam() {
                 <Col xl={4}>
                     <Figure>
                         <Figure.Image
-                            width={171}
-                            height={180}
+                            className='our_team_icon'
                             alt="Loading.."
                             src={GirlIcon}
                         />
@@ -71,8 +68,7 @@ export default function OurTeam() {
                 <Col xl={4}>
                     <Figure>
                         <Figure.Image
-                            width={171}
-                            height={180}
+                            className='our_team_icon'
                             alt="Loading.."
                             src={MenIcon}
                         />
@@ -88,8 +84,7 @@ export default function OurTeam() {
                 <Col xl={4} >
                     <Figure>
                         <Figure.Image
-                            width={171}
-                            height={180}
+                            className='our_team_icon'
                             alt="Loading.."
                             src={GirlIcon}
                         />
@@ -102,8 +97,7 @@ export default function OurTeam() {
                 <Col xl={4} >
                     <Figure>
                         <Figure.Image
-                            width={171}
-                            height={180}
+                            className='our_team_icon'
                             alt="Loading.."
                             src={MenIcon}
                         />
