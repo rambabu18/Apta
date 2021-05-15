@@ -30,7 +30,7 @@ export default function DigitalMarketing() {
                 <Col className='digital_market_col3' xl={3} sm={11} xs={11}>
                 <img src={SeoIcon} alt='Loading..' className='digital_market_icon' /> <br />
                 <span className='digital_market_text_span' >Search Engine Optimization</span>
-                <p className='digital_market_text_p' > SEO is the process that leads to a better user experience that leads to better ranking and visibility of your company website in the search engine results and helps you increase sales and get higher returns on your investments. </p>
+                <p className='digital_market_text_p' > SEO is the process that leads to a better user experience, for better ranking and visibility of your company website in the search engine results and helps you increase sales and get higher returns on your investments. </p>
                 </Col>
 
                 <Col className='digital_market_col3' xl={3} sm={11} xs={11}>

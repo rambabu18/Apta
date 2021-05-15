@@ -17,7 +17,7 @@ export default function WebDevelopment() {
                 {/* <Col xl={12} className='web_development_col_text1'>  We don't just build websites, we build websites that SELLS </Col> */}
             </Row>
             <Row className='web_development_row_head'>
-                <Col className='web_development_col1_text'> Web design is not just about creating pretty layouts.<br /> It’s about understanding the marketing challenge behind your business. </Col>
+                <Col className='web_development_col1_text'> Web design is not just about creating moderate layouts.<br /> It’s about understanding the marketing challenge behind your business. </Col>
             </Row>
             <Row className='web_development_row1'>
                 <Col className='web_development_col2' xl={3} sm={11} xs={11} >

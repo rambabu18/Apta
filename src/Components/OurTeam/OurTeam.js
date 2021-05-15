@@ -21,9 +21,9 @@ export default function OurTeam() {
             </Row>
             <Row className='our_team_row_p' >
                 <Col xl={9} className='our_team_col_p1'  >
-                    <p> Building on a platform developed and tested by one of the world's leading investment and technology development firms, the D. E. Shaw group, Samudayah launched as an independent company in 2015. We received additional equity backing from our second seed client, Blackstone Alternative Asset Management, the world's largest discretionary allocator to hedge funds. In January 2020, J.P. Morgan made a strategic investment in the company. </p>
+                    <p> Samudayah launched as an independent company in 2021. We received additional equity backing from our second seed client, Blackstone Alternative Asset Management, the world's largest discretionary allocator to hedge funds. In January 2020, J.P. Morgan made a strategic investment in the company. </p>
                     <p> Samudayah has grown to support more than $455 billion in assets with a staff of over 1,250 software engineering, accounting, operations, and treasury professionals.</p>
-                    <p> The Samudayah team has decades of combined experience in the financial services industry and knows how to meet the needs of our clients, including the requirement to adapt quickly in an ever-changing environment. We help our clients modernize their technology and optimize their organizational footprint so that they can focus on what matters most to their firm.</p>
+                    <p> The Samudayah team has decades of combined experience in the multiple software services and knows how to meet the needs of our clients, including the requirement to adapt quickly in an ever-changing environment. We help our clients modernize their technology and optimize their organizational footprint so that they can focus on what matters most to their firm.</p>
                 </Col>
             </Row>
             <Row className='our_team_row_team' >

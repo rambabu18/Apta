@@ -18,7 +18,7 @@ export default function Footer() {
                 <Col xl={4} lg={4} md={4} sm={12} xs={12} className='footer_text'>
                     <h3 className='footer_text1'>Contact Us</h3>
                     <h6 className='footer_text2'>+919848032919</h6>
-                    <h6 className='footer_text2'>samudayah@gmail.com</h6>
+                    <h6 className='footer_text2'>admin@samudayah.com</h6>
                 </Col>
                 <Col xl={4} lg={4} md={4} sm={12} xs={12} className='footer_text'>
                     <h3 className='footer_text1'>Connect</h3>

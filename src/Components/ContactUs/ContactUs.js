@@ -55,12 +55,12 @@ export default function ContactUs() {
                     <Col xl={6} >
                     <h3 className='contact_location_text1'>Contact Us</h3>
                     <h6 className='contact_location_text2'>+919848032919</h6>
-                    <h6 className='contact_location_text2'>samudayah@gmail.com</h6>
+                    <h6 className='contact_location_text2'>admin@samudayah.com</h6>
                     </Col>
                     <Col xl={6} >
                     <h3 className='contact_location_text1'>Contact Us</h3>
                     <h6 className='contact_location_text2'>+14168796277</h6>
-                    <h6 className='contact_location_text2'>samudayah@gmail.com</h6>
+                    <h6 className='contact_location_text2'>admin@samudayah.com</h6>
                     </Col>
                    </Row>
                 </Col>

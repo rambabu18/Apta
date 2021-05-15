@@ -9,8 +9,8 @@
     position: relative;
     height: 50vh;
     /* background-color: #f0f4f8; */
-    background-image: url(/src/Utils/Images/5395108.jpg);
-    background-position:660px;
+    background-image: url(/src/Utils/Images/social.jpg);
+    background-position:bottom;
     background-size:cover;
 }
 .digital_market_col{
