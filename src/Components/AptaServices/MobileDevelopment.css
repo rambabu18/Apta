@@ -9,6 +9,9 @@
     position: relative;
     height: 50vh;
     background-color: #f0f4f8;
+    background-image: url(/src/Utils/Images/Hands_mobile.jpg);
+    background-position:bottom;
+    background-size:cover;
 }
 .mobile_dev_col{
     position: relative;
@@ -21,6 +24,16 @@
     font-weight: 700;
     color: #14aafa;
     text-align: center;
+    text-transform: uppercase;
+}
+.mobile_dev_col_div{
+    position: relative;
+    /* width: 200px; */
+    height: 150px;
+    background-color: #F5F4F4;
+    box-sizing: border-box;
+    padding: 10px 60px 20px;
+    border-radius: 20px;
     text-transform: uppercase;
 }
 .mobile_dev_col1{

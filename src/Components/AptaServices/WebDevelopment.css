@@ -36,6 +36,10 @@
     border-radius: 20px;
     text-transform: uppercase;
 }
+.web_development_row_head{
+    position: relative;
+    margin-top: 30px;
+}
 
 .web_development_col_text1{
     position: relative;
@@ -148,7 +152,7 @@
     }
     .web_development_col2{
         position: relative;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-top: 50px;
     }
     .web_development_row1{
@@ -166,7 +170,7 @@
    
     .web_development_col2{
         position: relative;
-        margin-left: 50px;
+        margin-left: 30px;
         margin-top: 50px;
     }
     .web_development_row1{
@@ -180,6 +184,10 @@
         position: relative;
         height: 30vh;
         background-color: #f0f4f8;
+    }
+    .web_development_row_head{
+        position: relative;
+        margin-top: 50px;
     }
    
     .web_development_col2{

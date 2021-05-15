@@ -46,6 +46,12 @@
     color: #666;
     text-align: center !important;
 }
+.footer_social_icon{
+    position: relative;
+    width: 10%;
+    padding-right:10px ;
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 370px) and (max-width: 700px) {
     .footer_container{

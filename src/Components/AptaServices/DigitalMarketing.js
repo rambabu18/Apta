@@ -1,11 +1,11 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 import './DigitalMarketing.css'
-import OptimizationIcon from '../../Utils/Icons/optimization.svg'
+import SeoIcon from '../../Utils/Icons/seo.svg'
 import EmailIcon from '../../Utils/Icons/email.svg'
 import SmsIcon from '../../Utils/Icons/sms.svg'
 import GoogleIcon from '../../Utils/Icons/google.svg'
-import CmsIcon from '../../Utils/Icons/cms.svg'
+import SocialIcon from '../../Utils/Icons/social-media.svg'
 import DigiIcon from '../../Utils/Icons/dig-market.svg'
 
 
@@ -21,14 +21,14 @@ export default function DigitalMarketing() {
             <Row className='digital_market_row1' >
                 <Col className='digital_market_col3' xl={3} sm={11} xs={11} >
                 <div>
-                <img src={CmsIcon} alt='Loading..' className='digital_market_icon' /> <br />
+                <img src={SocialIcon} alt='Loading..' className='digital_market_icon' /> <br />
                 <span className='digital_market_text_span' >Social media Optimization</span>
                 <p className='digital_market_text_p' > SMO is a powerful strategy that connects social media networks such as Facebook, Twitter or Instagram with which you can enjoy a strong presence on the web by obtaining an Internet authority for your business. Offers the opportunity to get in touch with a niche audience. </p>
                 </div>
                 </Col>
 
                 <Col className='digital_market_col3' xl={3} sm={11} xs={11}>
-                <img src={OptimizationIcon} alt='Loading..' className='digital_market_icon' /> <br />
+                <img src={SeoIcon} alt='Loading..' className='digital_market_icon' /> <br />
                 <span className='digital_market_text_span' >Search Engine Optimization</span>
                 <p className='digital_market_text_p' > SEO is the process that leads to a better user experience that leads to better ranking and visibility of your company website in the search engine results and helps you increase sales and get higher returns on your investments. </p>
                 </Col>

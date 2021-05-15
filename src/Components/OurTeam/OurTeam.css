@@ -26,6 +26,7 @@
     width: 100px;
     height: 100px !important;
     border-radius: 100px;
+    border: none;
 }
 .our_team_col_span{
     color: #fefefe;

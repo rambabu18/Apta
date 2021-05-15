@@ -12,8 +12,8 @@ export default function MobileDevelopment() {
     return (
         <Container fluid className='mobile_dev_container' >
             <Row className='mobile_dev_row'>
-                <Col xl={12} className='mobile_dev_col'>  Mobile Application Developement  </Col>
-                <Col xl={12} className='mobile_dev_col1' >We offer a full cycle of application design, integration and management services.</Col>
+                <Col xl={12} className='mobile_dev_col'> <div className='mobile_dev_col_div'> Mobile Application Developement</div>  </Col>
+                {/* <Col xl={12} className='mobile_dev_col1' >We offer a full cycle of application design, integration and management services.</Col> */}
             </Row>
             <Row>
                 <Col className='mobile_dev_col2'>Mobile App Development Services <br/> For Numerous Platforms</Col>

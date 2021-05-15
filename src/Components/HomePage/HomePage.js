@@ -20,7 +20,7 @@ export default function HomePage() {
                     <Carousel.Item>
                         <img  className="carousel_slide1"  src={Slide1} alt="First slide"  />
                         <Carousel.Caption>
-                            <h3 className='home_page_text'> Welcome to Samudayah Technologies</h3>
+                            <h3 className='home_page_text'> Welcome to Samudayah</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
                             <Button onClick={()=>history.push('/about')} className='home_page_btn'>Explore more</Button>
@@ -30,7 +30,7 @@ export default function HomePage() {
                     <Carousel.Item>
                         <img  className="carousel_slide1"  src={Slide4} alt="Loading.."  />
                         <Carousel.Caption>
-                            <h3 className='home_page_text'>Apta IT Solutions is a young and energetic organization providing web based solutions.</h3>
+                            <h3 className='home_page_text'>Samudayah is a young and energetic organization providing web based solutions.</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
                             <Button onClick={()=>history.push('/about')} className='home_page_btn'>Explore more</Button>
@@ -43,7 +43,7 @@ export default function HomePage() {
                         <h3 className='home_page_text'> Digital Marketing</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
-                            <Button className='home_page_btn'>Explore more</Button>
+                            <Button onClick={()=>history.push('/digital/marketing')} className='home_page_btn'>Explore more</Button>
                             <p>“Google Analytics is the best friend of all Digital Marketers as it dictates the decision making and success of every websites.”</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -53,7 +53,7 @@ export default function HomePage() {
                         <h3 className='home_page_text3'>Web & Mobile Development</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
-                            <Button className='home_page_btn'>Explore more</Button>
+                            <Button onClick={()=>history.push('/web/development')} className='home_page_btn'>Explore more</Button>
                             <p>“Your website should generate content without trying to guess what might go down well in search engines. Feed the real interest in your topic from the readers of your website to the topic and control the traffic on this topic.”</p>
                         </Carousel.Caption>
                     </Carousel.Item>

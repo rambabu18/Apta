@@ -12,7 +12,7 @@ export default function AboutUs() {
                 <Col className='about_us_col_text' > <span >About Us</span></Col>
             </Row>
             <Row>
-                <Col className='about_us_col_text1' > <span>Apta IT Solutions Private limited is Hyderabad <br/> Based Company</span></Col>
+                <Col className='about_us_col_text1' > <span>Samudayah is an Hyderabad <br/> Based Company</span></Col>
             </Row>
             <Row className='about_us_row_text1' >
                 <Col className='about_us_col_text_p' xl={3} > 
