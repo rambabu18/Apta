@@ -30,7 +30,7 @@ export default function TopNavBar() {
                     as={Link}
                     to='/services'
                     ref={target}
-                    onMouseLeave={ ()=> { setTimeout(()=>{handleServiceClose()},5000)} }
+                    onMouseLeave={ ()=> { setTimeout(()=>{handleServiceClose()},3000)} }
                     onMouseOver={handleServiceOpen}
                     >
                         Services

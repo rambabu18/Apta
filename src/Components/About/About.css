@@ -1,6 +1,7 @@
 .about_container{
     position: relative;
     width: 100%;
+    height: 65vh;
     top: 20px;
 }
 .about_text{
@@ -30,7 +31,7 @@
     .about_container{
         position: relative;
         width: 100%;
-        height: 100%;
+        height: 95vh;
         top: 20px;
     }
     .about_us_col_text_p{
@@ -87,7 +88,7 @@
     .about_container{
         position: relative;
         width: 100%;
-        height: 100%;
+        height:50vh;
         top: 0px;
     }
     .about_us_col_text_p{
@@ -115,7 +116,7 @@
     .about_container{
         position: relative;
         width: 100%;
-        height: 70vh;
+        height: 40vh;
         top: 0px;
     }
     .about_us_col_text_p{
@@ -138,6 +139,14 @@
         margin-inline-end: 0px;
     }
    
+}
+@media only screen and (min-width: 1300px) and (min-height: 1024px) {
+    .about_container{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        top: 0px;
+    }
 }
 
 

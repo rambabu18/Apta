@@ -34,6 +34,19 @@
     color: #14aafa;
     text-align: center;
 }
+.about_us_row_p{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.about_us_col_p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #4e4f4f;
+}
 .about_us_row_text1{
     position: relative;
     margin-top: 100px ;
@@ -68,6 +81,13 @@
     .about_us_col_text_p{
         position: relative;
         margin-left: 50px;
+    }
+    .about_us_col_p{
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #4e4f4f;
     }
    
 }

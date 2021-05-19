@@ -62,8 +62,8 @@ export default function AptaServices() {
                 </Col>
                 <img className='our_work_web_icon' src={WordIcon} alt='Loading..' />
                 <Col className='our_work_col_web' xl={3} lg={3} md={10} xs={8} sm={8} >
-                    <span className='our_work_text_span'>WordPress Development.</span>
-                    <p className='our_work_text_p'> Give your websites with a host of add-on features and flexible plugins that helps you in organizing your content in a cost-effective mobile-friendly way. </p>
+                    <span className='our_work_text_span'>Content Writing.</span>
+                    <p className='our_work_text_p'> Content writing on a website has become an essential tool to make your presence online and keeps you ahead of the competitors. Words have the power to either make or break the identity of your brand and reputation in both virtual and real world. </p>
                 </Col>
             </Row>
             <Row className='our_work_row_text1'>

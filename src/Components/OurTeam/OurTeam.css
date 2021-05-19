@@ -39,7 +39,6 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-   
 }
 .our_team_row_p{
     position: relative;
@@ -94,4 +93,21 @@
     font-size: .9rem;
     line-height: 1.4;
     font-style: normal;
+}
+
+@media only screen and (min-width: 370px) and (max-width: 700px) {
+    .our_team_col{
+        position: relative;
+        margin-top: 220px;
+        height: 250px;
+        background-color: rgba(64,83,114,.6);
+        box-sizing: border-box;
+        padding: 10px 60px 20px;
+    }
+    .our_team_col_p{
+        color: #fefefe;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+    }
 }

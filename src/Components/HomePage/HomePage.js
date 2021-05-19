@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Carousel, Col, Container, Row } from 'react-bootstrap'
+import { Button, Carousel, Col, Container, Image, Row } from 'react-bootstrap'
 import About from '../About/About'
 import Footer from '../Footer/Footer'
 import Service from '../Services/Service'
@@ -18,9 +18,9 @@ export default function HomePage() {
                 <Row>
                 <Carousel >
                     <Carousel.Item>
-                        <img  className="carousel_slide1"  src={Slide1} alt="First slide"  />
+                        <Image  className="carousel_slide1"  src={Slide1} alt="First slide"  />
                         <Carousel.Caption>
-                            <h3 className='home_page_text'> Welcome to Samudayah</h3>
+                            <h3 className='home_page_text_welcome'> Welcome to Samudayah</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
                             <Button onClick={()=>history.push('/about')} className='home_page_btn'>Explore more</Button>
@@ -28,7 +28,7 @@ export default function HomePage() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img  className="carousel_slide1"  src={Slide4} alt="Loading.."  />
+                        <Image  className="carousel_slide1"  src={Slide4} alt="Loading.."  />
                         <Carousel.Caption>
                             <h3 className='home_page_text'>Samudayah is a young and energetic organization providing web based solutions.</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
@@ -38,7 +38,7 @@ export default function HomePage() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="carousel_slide1"  src={Slide2}  alt="Second slide" />
+                        <Image className="carousel_slide1"  src={Slide2}  alt="Second slide" />
                         <Carousel.Caption>
                         <h3 className='home_page_text'> Digital Marketing</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
@@ -48,7 +48,7 @@ export default function HomePage() {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img  className="carousel_slide1"  src={Slide3}  alt="Third slide"  />
+                        <Image  className="carousel_slide1"  src={Slide3}  alt="Third slide"  />
                         <Carousel.Caption>
                         <h3 className='home_page_text3'>Web & Mobile Development</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
