@@ -9,6 +9,9 @@
     position: relative;
     height: 40vh;
     background-color: #f0f4f8;
+    background-image: url(/src/Utils/Images/p-426443.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .about_us_col_text{
     position: relative;

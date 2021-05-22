@@ -71,7 +71,7 @@
     line-height: 1.2em;
 }
 .col_web_illustration{
-    background-image: url(/src//Utils/Images/4861019.jpg);
+    background-image: url(/src//Utils/Images/3411109.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,6 +97,12 @@
     color: #14aafa;
 }
 .our_work_row_text1{
+    position: relative;
+    margin-top: 80px;
+    display: inline-flex;
+    justify-content: center;
+}
+.our_work_row_text_simple{
     position: relative;
     margin-top: 80px;
 }
@@ -277,7 +283,7 @@
         position: relative;
         height: 250px;
         margin-top: 40px;
-        background-image: url(/src//Utils/Images/4861019.jpg);
+        background-image: url(/src//Utils/Images/3411109.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -305,6 +311,10 @@
         background-size: cover;
     }
     .our_work_row_text1{
+        position: relative;
+        margin-top: 60px;
+    }
+    .our_work_row_text_simple{
         position: relative;
         margin-top: 60px;
     }
@@ -397,7 +407,7 @@
         position: relative;
         height: 450px;
         margin-top: 0px;
-        background-image: url(/src//Utils/Images/4861019.jpg);
+        background-image: url(/src//Utils/Images/3411109.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

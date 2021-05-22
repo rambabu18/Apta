@@ -36,7 +36,7 @@ export default function Service() {
                         <Card.Body>
                             <Card.Title className='service_card_title'>Mobile Developement</Card.Title>
                             <Card.Text className='service_card_text'>
-                                <Col xl={12} >
+                                <Col className='service_card_text_col' xl={12} >
                                     Right from strategy to app design and development services to testing and deployment, we adhere to proven global standards and methodology to deliver enterprise-grade applications.
                               </Col>
                             </Card.Text>
@@ -48,7 +48,7 @@ export default function Service() {
                         <Card.Body>
                             <Card.Title className='service_card_title'>Web Developement</Card.Title>
                             <Card.Text className='service_card_text'>
-                                <Col xl={12} >
+                                <Col className='service_card_text_col' xl={12} >
                                     Web Applications are becoming a standard way of delivering solutions to provide timely information and methods of processing data using a range of devices and platforms.
                                 </Col>
                             </Card.Text>
@@ -62,7 +62,7 @@ export default function Service() {
                         <Card.Body>
                             <Card.Title className='service_card_title'>Digital Marketing</Card.Title>
                             <Card.Text className='service_card_text'>
-                                <Col xl={12} >
+                                <Col className='service_card_text_col' xl={12} >
                                     At Samudayah provides digital Marketing that focuses on growing business success.
                                 </Col>
                             </Card.Text>

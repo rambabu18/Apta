@@ -34,6 +34,7 @@
     padding: 10px 60px 20px;
     border-radius: 20px;
     text-transform: uppercase;
+    opacity: 0.5;
 }
 .digital_market_col2{
     position: relative;

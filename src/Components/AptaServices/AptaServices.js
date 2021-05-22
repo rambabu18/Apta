@@ -66,7 +66,7 @@ export default function AptaServices() {
                     <p className='our_work_text_p'> Content writing on a website has become an essential tool to make your presence online and keeps you ahead of the competitors. Words have the power to either make or break the identity of your brand and reputation in both virtual and real world. </p>
                 </Col>
             </Row>
-            <Row className='our_work_row_text1'>
+            <Row className='our_work_row_text_sample'>
                 <Col xs={12} sm={12} className='our_work_col_head' >
                     <h6 className='our_work_head_h6' > We Are </h6>
                     <h3 className='our_work_head_h3'>Simple yet Powerful</h3>

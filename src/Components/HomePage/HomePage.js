@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer'
 import Service from '../Services/Service'
 import './HomePage.css'
 import Slide1 from '../../Utils/Images/p-374870.jpg'
-import Slide4 from '../../Utils/Images/budha.jpg'
+import Slide4 from '../../Utils/Images/Hussain_sagar.jpg'
 import Slide2 from '../../Utils/Images/p-712786.jpg'
 import Slide3 from '../../Utils/Images/p-7974.jpg'
 import { useHistory } from 'react-router'
@@ -20,7 +20,7 @@ export default function HomePage() {
                     <Carousel.Item>
                         <Image  className="carousel_slide1"  src={Slide1} alt="First slide"  />
                         <Carousel.Caption>
-                            <h3 className='home_page_text_welcome'> Welcome to Samudayah</h3>
+                            <h3 className='home_page_text_welcome'> Welcome to Samudayah Canada</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
                             <Button onClick={()=>history.push('/about')} className='home_page_btn'>Explore more</Button>
@@ -30,7 +30,7 @@ export default function HomePage() {
                     <Carousel.Item>
                         <Image  className="carousel_slide1"  src={Slide4} alt="Loading.."  />
                         <Carousel.Caption>
-                            <h3 className='home_page_text'>Samudayah is a young and energetic organization providing web based solutions.</h3>
+                            <h3 className='home_page_text'>Welcome to Samudayah India</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
                             <Button onClick={()=>history.push('/about')} className='home_page_btn'>Explore more</Button>

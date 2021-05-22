@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Figure, Row } from 'react-bootstrap'
 import './OurTeam.css'
-import {TeamData} from '../../Utils/Data/OurTeamData'
+import { TeamData } from '../../Utils/Data/OurTeamData'
 import GirlIcon from '../../Utils/Icons/girl.svg'
 import SivaIcon from '../../Utils/Images/Image2.jpeg'
 import SunithaIcon1 from '../../Utils/Images/Image1.jpeg'
@@ -21,9 +21,8 @@ export default function OurTeam() {
             </Row>
             <Row className='our_team_row_p' >
                 <Col xl={9} className='our_team_col_p1'>
-                    <p>Samudayah is an Indian Sanskrit word which has the meaning of Rise or Origin. We as team not only rise but also spread rays of aspirations to complex business problems.</p>
                     <p> Samudayah launched as an independent company in 2021 operating from two geographical locations both from India & Canada.  </p>
-                    <p> The Samudayah team has tons of combined experience in the multiple software services and knows how to meet the needs of our customers, including the requirement to adapt quickly in an ever-changing environment. We help our customers modernize their technology and optimize their organizational footprint so that they can focus on what matters most to their firm. </p>
+                    <p> The Samudayah team has tons of combined experience in the multiple software services and knows how to meet the needs of our customers, including the requirement to adapt quickly in an ever-changing environment. We help our customers modernize their technology and optimize their organizational footprint so that they can focus on what matters most to their company. </p>
                     <p> We provide cost effective solution by our gobal operating model.</p>
                 </Col>
             </Row>
@@ -33,7 +32,7 @@ export default function OurTeam() {
                 </Col>
                 <Col xl={4}>
                     <Figure>
-                        <Figure.Image  className='our_team_icon' alt="Loading.." src={SivaIcon}/>
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={SivaIcon} />
                         <Figure.Caption>
                             <h3 className='our_team_global_h3' >Siva Kumar  Kesanapalli</h3>
                             <h6 className='our_team_global_h6'> Managing Director </h6>
@@ -43,7 +42,7 @@ export default function OurTeam() {
                 </Col>
                 <Col xl={4}>
                     <Figure>
-                        <Figure.Image  className='our_team_icon'   alt="Loading.."  src={SunithaIcon1}  />
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={SunithaIcon1} />
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Sunitha  Kesanapalli</h6>
                             <h6 className='our_team_global_h6'>Technology Consultant </h6>
@@ -53,7 +52,7 @@ export default function OurTeam() {
                 </Col>
                 <Col xl={4}>
                     <Figure>
-                        <Figure.Image className='our_team_icon'  alt="Loading.." src={ShravaniIcon} />
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={ShravaniIcon} />
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Shravani Sista</h6>
                             <h6 className='our_team_global_h6'> Digital Marketing & Operations Manager  </h6>
@@ -63,7 +62,7 @@ export default function OurTeam() {
                 </Col>
                 <Col xl={4}>
                     <Figure>
-                        <Figure.Image className='our_team_icon' alt="Loading.."  src={RamIcon}/>
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={RamIcon} />
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Rambabu Chennaram</h6>
                             <h6 className='our_team_global_h6'> Technology Operations Manager </h6>
@@ -73,7 +72,7 @@ export default function OurTeam() {
                 </Col>
                 <Col xl={4} >
                     <Figure>
-                        <Figure.Image  className='our_team_icon'  alt="Loading.." src={GirlIcon} />
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={GirlIcon} />
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Prasanna Arikapalli </h6>
                             <h6 className='our_team_global_h6'> Content Writer </h6>
@@ -86,7 +85,7 @@ export default function OurTeam() {
                 <Col xl={12} className='our_team_row_team_h3'> <h3>Regional Leadership</h3>  </Col>
                 <Col xl={4} >
                     <Figure>
-                        <Figure.Image  className='our_team_icon' alt="Loading.." src={ShravaniIcon} />
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={ShravaniIcon} />
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Shravani Sista</h6>
                             <h6 className='our_team_global_h6'> Digital Marketing & Operations Manager  </h6>
@@ -96,7 +95,7 @@ export default function OurTeam() {
                 </Col>
                 <Col xl={4} >
                     <Figure>
-                        <Figure.Image  className='our_team_icon'  alt="Loading.." src={RamIcon} />
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={RamIcon} />
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Rambabu Chennaram</h6>
                             <h6 className='our_team_global_h6'> Technology Operations Manager </h6>
@@ -106,7 +105,7 @@ export default function OurTeam() {
                 </Col>
                 <Col xl={4} >
                     <Figure>
-                        <Figure.Image  className='our_team_icon'  alt="Loading.." src={GirlIcon} />
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={GirlIcon} />
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Prasanna Arikapalli </h6>
                             <h6 className='our_team_global_h6'> Content Writer </h6>
