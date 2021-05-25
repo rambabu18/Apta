@@ -63,7 +63,7 @@ export default function Service() {
                             <Card.Title className='service_card_title'>Digital Marketing</Card.Title>
                             <Card.Text className='service_card_text'>
                                 <Col className='service_card_text_col' xl={12} >
-                                    At Samudayah provides digital Marketing that focuses on growing business success.
+                                    Samudayah provides digital Marketing that focuses on growing business success.
                                 </Col>
                             </Card.Text>
                         </Card.Body>

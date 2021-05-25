@@ -28,7 +28,7 @@ export default function WebDevelopment() {
                 <Col className='web_development_col2' xl={3} sm={11} xs={11} >
                     <img className='web_development_setting_icon' src={MenuIcon} alt='Loading..' /> <br />
                     <span className='web_development_text_span' >Award Winning Web Design</span>
-                    <p className='web_development_text_p' > We design encompasses many different skills and disciplines in the production and maintenance of websites. </p>
+                    <p className='web_development_text_p' > Our designing encompasses many different skills and disciplines in the production and maintenance of websites.</p>
                 </Col>
                 <Col className='web_development_col2' xl={3} sm={11} xs={11} >
                     <img className='web_development_setting_icon' src={ControlIcon} alt='Loading..' /> <br />

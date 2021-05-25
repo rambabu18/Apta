@@ -43,16 +43,19 @@
 .contact_row_form{
    position: relative;
    margin-top: 50px;
+   display: flex;
+   justify-content: flex-end;
 }
 
 .contact_col_form{
   position: relative;
-  left: 150px;
-  margin-left: 140px;
-  
 }
 .contact_row_location{
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    text-align: justify;
+    align-items: flex-end;
     margin-top: 30px;
 }
 .contact_us_icon{
@@ -66,7 +69,7 @@
     line-height: 1.5;
     font-weight: 700;
     color: #14aafa;
-    text-align: left;
+    text-align: justify;
 }
 .contact_location_text2{
     font-size: 16px;
@@ -74,155 +77,34 @@
     line-height: 1.5;
     font-weight: 400;
     color: #4e4f4f;;
-    text-align: left;
+    text-align: justify;
 }
 .contact_location_text3{
-    font-size: 13px;
+    font-size: 16px;
     font-style: normal;
     line-height: 1.5;
     font-weight: 400;
     color: #4e4f4f;;
-    text-align: left;
+    text-align: justify;
 }
-
 .contact_form_btn{
     position: relative;
-    left: 120px;
     width: 120px;
 }
+.contact_col_btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 
-@media only screen and (min-width: 370px) and (max-width: 600px) {
-    .contact_col_form{
-        position: relative;
-        left: 0px;
-        margin-left: 0px;
-      }
-
-      .contact_location_text1{
-        font-size: 1rem;
-        font-style: normal;
-        line-height: 1.5;
-        font-weight: 700;
-        color: #14aafa;
-        text-align: left;
-    }
-    .contact_location_text2{
-        font-size: 14px;
-        font-style: normal;
-        line-height: 1.5;
-        font-weight: 400;
-        color: #4e4f4f;;
-        text-align: left;
-    }
+@media only screen and (min-width: 370px) and (max-width: 500px) {
     .contact_location_text3{
         font-size: 11px;
         font-style: normal;
         line-height: 1.5;
         font-weight: 400;
         color: #4e4f4f;;
-        text-align: left;
-    }
-    .contact_row_location{
-        position: relative;
-        margin-top: 20px;
-        display: inline-flex;
-        justify-content: center;
-        padding-left: 20px;
+        text-align: justify;
     }
 }
-
-@media only screen and (min-width: 760px) and (max-width: 1020px) {
-    .contact_col_form{
-        position: relative;
-        left: 0px;
-        margin-left: 0px;
-      }
-
-      .contact_location_text1{
-        font-size: 1.6rem;
-        font-style: normal;
-        line-height: 1.5;
-        font-weight: 700;
-        color: #14aafa;
-        text-align: left;
-    }
-    .contact_location_text2{
-        font-size: 20px;
-        font-style: normal;
-        line-height: 1.5;
-        font-weight: 400;
-        color: #4e4f4f;;
-        text-align: left;
-    }
-    .contact_location_text3{
-        font-size: 16px;
-        font-style: normal;
-        line-height: 1.5;
-        font-weight: 400;
-        color: #4e4f4f;;
-        text-align: left;
-    }
-
-    .contact_form_btn{
-        position: relative;
-        left: 310px;
-        width: 120px;
-        margin-top: 20px;
-    }
-    .contact_row_location{
-        position: relative;
-        margin-top: 40px;
-        display: inline-flex;
-        justify-content: center;
-        padding-left: 180px;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1100px) {
-    .contact_col_form{
-        position: relative;
-        left: 60px;
-        margin-left: 0px;
-      }
-
-      .contact_location_text1{
-        font-size: 1.4rem;
-        font-style: normal;
-        line-height: 1.5;
-        font-weight: 700;
-        color: #14aafa;
-        text-align: left;
-    }
-    .contact_location_text2{
-        font-size: 20px;
-        font-style: normal;
-        line-height: 1.5;
-        font-weight: 400;
-        color: #4e4f4f;;
-        text-align: left;
-    }
-    .contact_location_text3{
-        font-size: 14px;
-        font-style: normal;
-        line-height: 1.5;
-        font-weight: 400;
-        color: #4e4f4f;;
-        text-align: left;
-    }
-    .contact_form_btn{
-        position: relative;
-        left: 180px;
-        width: 120px;
-    }
-    .contact_row_location{
-        position: relative;
-        margin-top: 40px;
-        display: inline-flex;
-        justify-content: center;
-        padding-left: 50px;
-    }
-
-    
-}
-
 

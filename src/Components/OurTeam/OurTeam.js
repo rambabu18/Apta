@@ -15,7 +15,7 @@ export default function OurTeam() {
                 <Col xl={6} md={12} sm={12} xs={12} className='our_team_col' >
                     <span className='our_team_col_span' >Our Team </span> <br />
                     <p className='our_team_col_p'>
-                        Samudayah combines elegant, cloud-native software with experienced teams of professionals to deliver modern solutions across the investment lifecycle.
+                        Samudayah combines elegant, cloud-native software with experience team of professionals to deliver modern solutions across the investment lifecycle.
                     </p>
                 </Col>
             </Row>

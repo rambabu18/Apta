@@ -43,7 +43,7 @@
     margin: -2px;
     font-size: 1.6rem;
     font-weight: 500;
-    font-style: oblique;
+    font-style: normal;
     color: var(--text-color-fff);
 }
 .service_card_text{
@@ -51,10 +51,10 @@
     display: flex;
     top: 80px;
     justify-content: flex-end;
-    text-align: left;
+    text-align: justify;
     font-size: 1.2rem;
     font-weight: 600;
-    font-style: oblique;
+    font-style: normal;
     color: var(--text-color-fff);
 }
 .service_card_text_col{
@@ -127,28 +127,27 @@
     }
     .service_row_cards1{
         position: relative;
-        margin-top: 0px;
+        margin-top: 30px;
     }
     .service_card_text{
         position: relative;
         display: flex;
         top: 40px;
         justify-content: flex-end;
-        text-align: left;
-        font-size: 1rem;
+        text-align: justify;
+        font-size: 15px;
         font-weight: 600;
-        font-style: oblique;
         color: var(--text-color-fff);
     }
     .service_card2{
-      top: 0px;
+      margin-top: 30px;
     }
     .service_row_cards2{
         position: relative;
         margin-top: 80px;
     }
 }
-@media only screen and (min-width: 370px) and (max-width: 770px) {
+/* @media only screen and (min-width: 370px) and (max-width: 770px) {
     .service_row_cards1{
         position: relative;
         top: 60px;
@@ -171,7 +170,7 @@
         margin-top: 50px;
     }
   
-}
+} */
 
 @media only screen and (min-width: 760px) and (max-width: 1024px) {
     .service_row_cards1{
@@ -183,7 +182,7 @@
         display: flex;
         top: 40px;
         justify-content: flex-end;
-        text-align: left;
+        text-align: justify;
         font-size: 1rem;
         font-weight: 600;
         font-style: oblique;

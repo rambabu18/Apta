@@ -19,7 +19,7 @@
     font-weight: 400;
     color: #4e4f4f;
     line-height: 1.6;
-    text-align: left;
+    text-align: justify;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -27,11 +27,11 @@
     margin-inline-end: 0px;
 }
 
-@media only screen and (min-width: 370px) and (max-width: 420px) {
+@media only screen and (min-width: 370px) and (max-width: 700px) {
     .about_container{
         position: relative;
         width: 100%;
-        height: 95vh;
+        height: 80vh;
         top: 20px;
     }
     .about_us_col_text_p{
@@ -46,35 +46,7 @@
         font-weight: 700;
         color: #4e4f4f;
         line-height: 1.6rem;
-        text-align: left;
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
-   
-}
-@media only screen and (min-width: 425px) and (max-width: 700px) {
-    .about_container{
-        position: relative;
-        width: 100%;
-        height: 100%;
-        top: 20px;
-    }
-    .about_us_col_text_p{
-        position: relative;
-        margin-left: 50px;
-    }
-
-    .about_text1{
-        position: relative;
-        top: 40px;
-        font-size: 10px;
-        font-weight: 700;
-        color: #4e4f4f;
-        line-height: 1.6rem;
-        text-align: left;
+        text-align: justify;
         display: block;
         margin-block-start: 1em;
         margin-block-end: 1em;
@@ -84,11 +56,11 @@
    
 }
 
-@media only screen and (min-width: 760px) and (max-width: 1024px) {
+@media only screen and (min-width: 760px) and (max-width: 990px) {
     .about_container{
         position: relative;
         width: 100%;
-        height:50vh;
+        height:60vh;
         top: 0px;
     }
     .about_us_col_text_p{
@@ -103,7 +75,7 @@
         font-weight: 700;
         color: #4e4f4f;
         line-height: 1.6rem;
-        text-align: left;
+        text-align: justify;
         display: block;
         margin-block-start: 1em;
         margin-block-end: 1em;
@@ -116,7 +88,7 @@
     .about_container{
         position: relative;
         width: 100%;
-        height: 40vh;
+        height: 60vh;
         top: 0px;
     }
     .about_us_col_text_p{
@@ -131,7 +103,7 @@
         font-weight: 700;
         color: #4e4f4f;
         line-height: 2.2rem;
-        text-align: left;
+        text-align: justify;
         display: block;
         margin-block-start: 1em;
         margin-block-end: 1em;
@@ -140,13 +112,6 @@
     }
    
 }
-@media only screen and (min-width: 1300px) and (min-height: 1024px) {
-    .about_container{
-        position: relative;
-        width: 100%;
-        height: 40vh;
-        top: 0px;
-    }
-}
+
 
 

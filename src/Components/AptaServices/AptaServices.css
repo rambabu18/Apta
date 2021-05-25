@@ -134,7 +134,7 @@
     font-size: 16px;
     color: #4e4f4f;
     line-height: 28px;
-    text-align: left;
+    text-align: justify;
 }
 .our_work_row_text2{
     position: relative;
@@ -196,19 +196,19 @@
     line-height: 1.4;
     font-weight: 500;
     color: #14aafa;
-    text-align: left;
+    text-align: justify;
 }
 .our_work_bg_h6{
     font-size: 16px;
     color: #4e4f4f;
     line-height: 28px;
-    text-align: left;
+    text-align: justify;
 }
 .our_work_bg_p{
     font-size: 16px;
     color: #4e4f4f;
     line-height: 28px;
-    text-align: left;
+    text-align: justify;
 }
 
 @media only screen and (min-width: 370px) and (max-width: 700px) {
@@ -296,7 +296,7 @@
     .our_work_web_icon{
         position: relative;
         width: 150px;
-        left: 60px;
+        left: 0px;
         bottom: 20px;
     }
 
@@ -331,197 +331,7 @@
     .our_work_row_text3{
         position: relative;
         margin-top: 0px;
-        text-align: left;
+        text-align: justify;
     }
 
-}
-@media only screen and (min-width: 700px) and (max-width: 1030px) {
-    .our_work_row{
-        position: relative;
-        height: 90vh;
-    }
-    .our_work_col{
-        position: relative;
-        top: 0px;
-    }
-    .our_work_col_span{
-        font-size: 50px;
-        font-weight: 600;
-        line-height: 64px;
-        font-style: normal;
-        color: #14aafa;
-        text-align: center;
-    }
-    
-    .our_work_col_span1{
-        position: relative;
-        margin-top: 20px;
-        font-size: 19px;
-        font-weight: 400;
-        line-height: 28px;
-        font-style: normal;
-        color: #4e4f4f;
-        text-align: left;
-    }
-    .our_work_text_div{
-        position: relative;
-        margin-top: 60px;
-        left: 30px;
-    }
-    .our_work_apps_div{
-        position: relative;
-        margin-top: 20px;
-        display: inline-flex;
-        left: 30px;
-    }
-    .our_work_apps_div1{
-        position: relative;
-        /* margin-top: 20px; */
-        display: inline-flex;
-        padding: 0px;
-        
-    }
-    .our_work_ios_h6{
-        position: relative;
-        padding-left: 50px;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.2em;
-        color: #4e4f4f !important;
-    }
-    .our_work_app_icon{
-        position: relative;
-        width: 20px;
-        height: 20px;
-        bottom: 3px;
-        margin-right: 10px;
-    }
-    .our_work_know_btn{
-        position: relative;
-        border-radius: 5px;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.2em;
-    }
-    .col_web_illustration{
-        position: relative;
-        height: 450px;
-        margin-top: 0px;
-        background-image: url(/src//Utils/Images/3411109.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .our_work_col_web{
-        position: relative;
-        margin-left: 60px;
-        margin-bottom: 30px;
-    }
-    .our_work_web_icon{
-        position: relative;
-        width: 150px;
-        left: 60px;
-        bottom: 20px;
-    }
-
-    .our_work_col_bg{
-        position: relative;
-        margin-left: 0px;
-        margin-bottom: 30px;
-        height: 450px;
-        background-image: url(/src//Utils/Images/p-1181288.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .our_work_row_text2{
-        position: relative;
-        margin-top: -80px;
-        justify-content: center;
-        text-align: center;
-    }
-    .our_work_row_text_security{
-        position: relative;
-        margin-top: 20px;
-    }
-
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1380px) {
-    .our_work_row{
-        position: relative;
-        top: 50px;
-        height: 40vh;
-    }
-    /* .our_work_row{
-        position: relative;
-        height: 90vh;
-    }
-    .our_work_col{
-        position: relative;
-        top: 70px;
-    }
-    .our_work_col_span{
-        font-size: 50px;
-        font-weight: 600;
-        line-height: 64px;
-        font-style: normal;
-        color: #14aafa;
-        text-align: center;
-    }
-    
-    .our_work_col_span1{
-        position: relative;
-        margin-top: 20px;
-        font-size: 19px;
-        font-weight: 400;
-        line-height: 28px;
-        font-style: normal;
-        color: #4e4f4f;
-        text-align: left;
-    }
-    .our_work_text_div{
-        position: relative;
-        margin-top: 60px;
-        left: 50px;
-    }
-    .our_work_apps_div{
-        position: relative;
-        left: 50px;
-    }
-    .our_work_apps_div1{
-        position: relative;
-        display: inline-flex;
-        padding: 50px;
-        
-    }
-    .our_work_ios_h6{
-        position: relative;
-        padding-left: 50px;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.2em;
-        color: #4e4f4f !important;
-    }
-    .our_work_app_icon{
-        position: relative;
-        width: 20px;
-        height: 20px;
-        bottom: 3px;
-        margin-right: 10px;
-    }
-    .our_work_know_btn{
-        position: relative;
-        border-radius: 5px;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.2em;
-    }
-    .col_web_illustration{
-        background-image: url(/src//Utils/Images/4861019.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    } */
 }

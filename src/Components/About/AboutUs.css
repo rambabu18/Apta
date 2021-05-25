@@ -44,7 +44,7 @@
     justify-content: center;
 }
 .about_us_col_p{
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.6;
@@ -68,7 +68,7 @@
     font-size: 16px;
     color: #4e4f4f;
     line-height: 28px;
-    text-align: left;
+    text-align: justify;
 }
 .about_us_col_text_p{
     position: relative;
@@ -86,7 +86,7 @@
         margin-left: 50px;
     }
     .about_us_col_p{
-        text-align: left;
+        text-align: justify;
         font-size: 16px;
         font-weight: 400;
         line-height: 30px;
