@@ -106,7 +106,7 @@
     text-align: justify;
 }
 
-@media only screen and (min-width: 370px) and (max-width: 760px) {
+@media only screen and (min-width: 350px) and (max-width: 760px) {
     .mobile_dev_row{
         position: relative;
         height: 40vh;

@@ -11,6 +11,7 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import DigitalMarketing from './Components/AptaServices/DigitalMarketing';
 import MobileDevelopment from './Components/AptaServices/MobileDevelopment';
 import OurTeam from './Components/OurTeam/OurTeam';
+import ContentWriting from './Components/AptaServices/ContentWriting';
  
 
 function App() {
@@ -22,11 +23,12 @@ function App() {
        <Switch>
          <Route exact path='/' component={HomePage} />
          <Route exact path='/services' component={AptaServices} />
-         <Route exact path='/web/development' component={WebDevelopment} />
-         <Route exact path='/mobile/development' component={MobileDevelopment} />
-         <Route exact path='/digital/marketing' component={DigitalMarketing} />
+         <Route exact path='/services/web' component={WebDevelopment} />
+         <Route exact path='/services/mobile' component={MobileDevelopment} />
+         <Route exact path='/services/digital' component={DigitalMarketing} />
+         <Route exact path='/services/content' component={ContentWriting} />
          <Route exact path='/about' component={AboutUs} />
-         <Route exact path='/our/work' component={OurTeam} />
+         <Route exact path='/our/team' component={OurTeam} />
          <Route exact path='/contact' component={ContactUs} />
          <Redirect from="*" to="/" />
        </Switch>

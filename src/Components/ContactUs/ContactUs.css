@@ -97,7 +97,7 @@
     justify-content: center;
 }
 
-@media only screen and (min-width: 370px) and (max-width: 500px) {
+@media only screen and (min-width: 350px) and (max-width: 500px) {
     .contact_location_text3{
         font-size: 11px;
         font-style: normal;

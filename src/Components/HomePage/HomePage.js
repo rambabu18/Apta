@@ -7,7 +7,7 @@ import './HomePage.css'
 import Slide1 from '../../Utils/Images/p-374844.jpg'
 import Slide4 from '../../Utils/Images/Hussain_sagar.jpg'
 import Slide2 from '../../Utils/Images/p-712786.jpg'
-import Slide3 from '../../Utils/Images/p-7974.jpg'
+import Slide3 from '../../Utils/Images/p-1229862.jpg'
 import { useHistory } from 'react-router'
 
 export default function HomePage() {
@@ -50,7 +50,7 @@ export default function HomePage() {
                     <Carousel.Item>
                         <Image  className="carousel_slide1"  src={Slide3}  alt="Third slide"  />
                         <Carousel.Caption>
-                        <h3 className='home_page_text3'>Web & Mobile Development</h3>
+                        <h3 className='home_page_text'>Web & Mobile Development</h3>
                             <h3 className='home_page_text1'>WE KEEP TECHNOLOGY</h3>
                             <h3 className='home_page_text2'>SIMPLE AND ACCURATE</h3>
                             <Button onClick={()=>history.push('/web/development')} className='home_page_btn'>Explore more</Button>

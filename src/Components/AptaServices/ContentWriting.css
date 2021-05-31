@@ -1,20 +1,18 @@
-.digital_market_container{
+.content_container{
     position: relative;
     width: 100%;
     height: 100%;
     margin-bottom: 100px;
     margin-top: 50px;
 }
-.digital_market_row{
+.content_row{
     position: relative;
     height: 50vh;
-    /* background-color: #f0f4f8; */
-    background-image: url(/src/Utils/Images/social.jpg);
-    background-position:bottom;
+    background-image: url(/src/Utils/Images/content-7336.jpg);
+    background-position:center;
     background-size:cover;
 }
-
-.digital_market_col2{
+.content_col2{
     position: relative;
     margin-top: 50px;
     display: inline-flex;
@@ -27,11 +25,11 @@
     text-align: center;
     text-transform: capitalize;
 }
-.digital_market_row1{
+.content_row1{
     position: relative;
     margin-top: 100px ;
 }
-.digital_market_col3{
+.content_col3{
     position: relative;
     margin-left: 100px;
     background-color: #F5F4F4;
@@ -40,17 +38,19 @@
     border-radius: 10px;
     transition: all 0.5s ease;
 }
-.digital_market_col3:hover{
+.content_col3:hover{
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
 }
-.digital_market_icon{
+
+.content_icon{
     position: relative;
     margin-bottom: 30px;
     width: 15%;
 }
-.digital_market_text_span{
+
+.content_text_span{
     position: relative;
     font-size: 17px;
     font-style: normal;
@@ -60,7 +60,7 @@
     text-align: left;
     text-transform: capitalize;
 }
-.digital_market_text_p{
+.content_text_p{
     margin-top: 15px;
     font-size: 16px;
     color: #4e4f4f;
@@ -69,12 +69,12 @@
 }
 
 @media only screen and (min-width: 350px) and (max-width: 760px) {
-    .digital_market_row{
+    .content_row{
         position: relative;
         height: 40vh;
         background-color: #f0f4f8;
     }
-    .digital_market_col{
+    .content_col{
         position: relative;
         top: 60px;
         display: flex;
@@ -86,7 +86,7 @@
         color: #14aafa;
         text-align: center;
     }
-    .digital_market_col1{
+    .content_col1{
         position: relative;
         top: 10px;
         display: flex;
@@ -99,7 +99,7 @@
         text-align: center;
     }
 
-    .digital_market_col2{
+    .content_col2{
         position: relative;
         margin-top: 50px;
         display: inline-flex;
@@ -111,12 +111,12 @@
         color: #14aafa;
         text-align: center;
     }
-    .digital_market_row1{
+    .content_row1{
         position: relative;
         margin-top: 30px ;
     }
    
-    .digital_market_col3{
+    .content_col3{
         position: relative;
         margin-left: 20px;
         margin-top: 30px;
@@ -128,17 +128,17 @@
 }
 
 @media only screen and (min-width: 760px) and (max-width: 1020px) {
-    .digital_market_row{
+    .content_row{
         position: relative;
         height: 40vh;
         background-color: #f0f4f8;
     }
    
-    .digital_market_row1{
+    .content_row1{
         position: relative;
         margin-top: 50px ;
     }
-    .digital_market_col3{
+    .content_col3{
         position: relative;
         margin-left: 40px;
         margin-top: 30px;
@@ -149,17 +149,17 @@
     }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1100px) {
-    .digital_market_row{
+    .content_row{
         position: relative;
         height: 30vh;
         background-color: #f0f4f8;
     }
    
-    .digital_market_row1{
+    .content_row1{
         position: relative;
         margin-top: 50px ;
     }
-    .digital_market_col3{
+    .content_col3{
         position: relative;
         margin-left: 60px;
         margin-top: 30px;

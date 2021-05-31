@@ -4,6 +4,11 @@
     color: #0275d8 !important;
     cursor: pointer;
 }
+.top_nav_logo{
+    position: relative;
+    width: 60px;
+    /* height: 40px; */
+}
 
 .top_nav_nav{
   position: relative;
@@ -69,7 +74,7 @@
         position: absolute;
         margin-top: 85px;
         margin-left: 5px;
-        width: 150px;
+        width: 165px;
         background: var(--text-color-fff) !important;
         border: 1px solid #E5E5E5;
         border-radius: 5px;

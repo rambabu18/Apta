@@ -80,7 +80,7 @@
     width: 20%;
 }
 
-@media only screen and (min-width: 370px) and (max-width: 700px) {
+@media only screen and (min-width: 350px) and (max-width: 700px) {
     .about_us_col_text_p{
         position: relative;
         margin-left: 50px;

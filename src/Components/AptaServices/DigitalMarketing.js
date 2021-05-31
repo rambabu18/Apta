@@ -12,9 +12,7 @@ import DigiIcon from '../../Utils/Icons/dig-market.svg'
 export default function DigitalMarketing() {
     return (
         <Container fluid className='digital_market_container' >
-            <Row className='digital_market_row'>
-                {/* <Col className='digital_market_col'> <div className='digital_market_col_span'> Digital Marketing </div>  </Col> */}
-            </Row>
+            <Row className='digital_market_row'></Row>
             <Row>
                 <Col className='digital_market_col2'> Digital Marketing is a commitment, not a campaign.</Col>
             </Row>
