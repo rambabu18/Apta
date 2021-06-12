@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "title": "Welcome to Samudayah Canada",
+        "title_one": "WE KEEP TECHNOLOGY",
+        "title_two": "SIMPLE AND ACCURATE",
+        "button_name": "Explore more",
+        "desc": "“We love to create and design with passion of building epic web experiences to blow people's minds.”",
+        "backgroundImage": "/images/p-374844.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Welcome to Samudayah India",
+        "title_one": "WE KEEP TECHNOLOGY",
+        "title_two": "SIMPLE AND ACCURATE",
+        "button_name": "Explore more",
+        "desc": "“We love to create and design with passion of building epic web experiences to blow people's minds.”",
+        "backgroundImage": "/images/Hussain_sagar.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Digital Marketing",
+        "title_one": "WE KEEP TECHNOLOGY",
+        "title_two": "SIMPLE AND ACCURATE",
+        "button_name": "Explore more",
+        "desc": "“Google Analytics is the best friend of all Digital Marketers as it dictates the decision making and success of every websites.”",
+        "backgroundImage": "/images/p-1229862.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Web & Mobile Development",
+        "title_one": "WE KEEP TECHNOLOGY",
+        "title_two": "SIMPLE AND ACCURATE",
+        "button_name": "Explore more",
+        "desc": "“Your website should generate content without trying to guess what might go down well in search engines. Feed the real interest in your topic from the readers of your website to the topic and control the traffic on this topic”.",
+        "backgroundImage": "/images/p-712786.jpg"
+    }
+]

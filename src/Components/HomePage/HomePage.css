@@ -9,6 +9,23 @@
     height: 100vh;
     /* opacity: 0.5; */
 }
+.carousel-control-prev-icon{
+    position: relative;
+    background-color: #e9791d;
+    box-sizing: border-box;
+    padding: 40px 40px 0px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.carousel-control-next-icon{
+    position: relative;
+    background-color: #e9791d;
+    box-sizing: border-box;
+    padding: 40px 40px 0px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
 .home_page_welcome{
     position: relative;
     top: 60px;

@@ -31,7 +31,7 @@
     .about_container{
         position: relative;
         width: 100%;
-        height: 80vh;
+        height: 90vh;
         top: 20px;
     }
     .about_us_col_text_p{
@@ -42,7 +42,7 @@
     .about_text1{
         position: relative;
         top: 40px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 700;
         color: #4e4f4f;
         line-height: 1.6rem;

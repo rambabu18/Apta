@@ -6,8 +6,10 @@
 }
 .top_nav_logo{
     position: relative;
-    width: 60px;
-    /* height: 40px; */
+    top: 0;
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
 }
 
 .top_nav_nav{
@@ -16,7 +18,7 @@
 }
 
 .top_nav_links{
-    margin-left:30px;
+    margin-left:40px;
     font-size: 16px;
     font-style: normal;
     color: #4b4b4b !important;
@@ -49,6 +51,7 @@
 }
 
 .top_nav_active_links{
+    margin-left: 30px;
     color: rgb(68, 114, 196) !important;
     border-bottom: 5px solid rgb(68, 114, 196)  ;
 }
@@ -58,8 +61,12 @@
         position: relative;
         padding-left: 0px;
       }
+      .top_nav_links{
+          margin-left: 30px;
+      }
       .top_nav_active_links{
           width: fit-content;
+          margin-left: 30px;
           color: rgb(68, 114, 196) !important;
           border-bottom: 5px solid rgb(68, 114, 196)  ;
     }

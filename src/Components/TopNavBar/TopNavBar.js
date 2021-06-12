@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import { Image, Nav, Navbar, Overlay } from 'react-bootstrap'
 import { Link, NavLink } from 'react-router-dom';
 import './TopNavBar.css'
-import SamudayahLogo from '../../Utils/Images/Logo1.png'
+import SamudayahLogo from '../../Utils/Logo/SAMUDAYAH.svg'
 
 export default function TopNavBar() {
     const [show, setShow] = useState(false);
