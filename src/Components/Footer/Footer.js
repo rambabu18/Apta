@@ -37,7 +37,6 @@ export default function Footer() {
                 </Col>
             </Row>
             <Row className='footer_row1'>
-                <Col xl={3} lg={5} md={6} sm={12} xs={12} className='footer_text'> <h6 className='footer_text2'> Copyright © Samudayah Software Company, 2021</h6> </Col>
                 <Col xl={3} lg={5} md={6} sm={12} xs={12} className='footer_text'>
                     <h6 className='footer_text2'> <img className='footer_location_icon' src={CallIcon} alt='Loading..' /> Contact:+14168796277,+917386211139</h6>
                 </Col>
@@ -47,6 +46,9 @@ export default function Footer() {
                 <Col xl={3} lg={5} md={6} sm={12} xs={12} className='footer_text'>
                     <h6 className='footer_text2'> <img className='footer_location_icon' src={LocationIcon} alt='Loading..' /> Mississauga, GTA Ontario, Canada</h6>
                 </Col>
+            </Row>
+            <Row className='footer_row2'>
+            <Col xl={3} className='footer_text'> <h6 className='footer_text2'> Copyright © Samudayah Technologies, 2021</h6> </Col>
             </Row>
         </Container>
     )

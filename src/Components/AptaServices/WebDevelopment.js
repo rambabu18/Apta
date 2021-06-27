@@ -7,11 +7,13 @@ import CmsIcon from '../../Utils/Icons/cms.svg'
 import StatsIcon from '../../Utils/Icons/stats.svg'
 import MenuIcon from '../../Utils/Icons/menu1.svg'
 import ResponseIcon from '../../Utils/Icons/responsive.svg'
+import SEO from '../SEO/SEO'
 
 
 export default function WebDevelopment() {
     return (
         <Container fluid className='web_development_container' >
+            <SEO title = "Samudayah || Web development"/>
             <Row className='web_development_row'>
                 {/* <Col xl={12}> <span className='web_development_col_text'> <div className='web_development_col_span'> Web Design and Development </div> </span> </Col> */}
                 {/* <Col xl={12} className='web_development_col_text1'>  We don't just build websites, we build websites that SELLS </Col> */}

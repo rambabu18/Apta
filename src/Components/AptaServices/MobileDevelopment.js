@@ -7,10 +7,12 @@ import CrossIcon from '../../Utils/Icons/cross-platform.svg'
 import NativeIcon from '../../Utils/Icons/analysis.svg'
 import HybridIcon from '../../Utils/Icons/refresh.svg'
 import ProgressIcon from '../../Utils/Icons/optimization.svg'
+import SEO from '../SEO/SEO'
 
 export default function MobileDevelopment() {
     return (
         <Container fluid className='mobile_dev_container' >
+            <SEO title = "Samudayah || Mobile Developement"/>
             <Row className='mobile_dev_row'>
                 {/* <Col xl={12} className='mobile_dev_col'> <div className='mobile_dev_col_div'> Mobile Application Developement</div>  </Col> */}
                 {/* <Col xl={12} className='mobile_dev_col1' >We offer a full cycle of application design, integration and management services.</Col> */}

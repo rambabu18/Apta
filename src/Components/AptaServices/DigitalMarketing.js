@@ -7,11 +7,13 @@ import SmsIcon from '../../Utils/Icons/sms.svg'
 import GoogleIcon from '../../Utils/Icons/google.svg'
 import SocialIcon from '../../Utils/Icons/social-media.svg'
 import DigiIcon from '../../Utils/Icons/dig-market.svg'
+import SEO from '../SEO/SEO'
 
 
 export default function DigitalMarketing() {
     return (
         <Container fluid className='digital_market_container' >
+            <SEO title = "Samudayah || Digital Marketing"/>
             <Row className='digital_market_row'></Row>
             <Row>
                 <Col className='digital_market_col2'> Digital Marketing is a commitment, not a campaign.</Col>

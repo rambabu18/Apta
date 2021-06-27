@@ -5,12 +5,14 @@ import Service from '../Services/Service'
 import './HomePage.css'
 import { useHistory } from 'react-router'
 import SildeData from '../../Utils/Data/SlideData.json'
+import SEO from '../SEO/SEO'
 
 export default function HomePage() {
     const history = useHistory();
     return (
         <>
             <Container fluid className='home_page_container' >
+                <SEO title = "Samudayah || Home"/>
                 <Row>
                     <Carousel >
                         {

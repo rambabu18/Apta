@@ -3,10 +3,12 @@ import { Button, Col, Container, Form, Image, Row } from 'react-bootstrap'
 import './ContactUs.css'
 import CallIcon from '../../Utils/Icons/phone-call.svg'
 import EmailIcon from '../../Utils/Icons/email1.svg'
+import SEO from '../SEO/SEO'
 
 export default function ContactUs() {
     return (
         <Container fluid className='contact_container' >
+            <SEO title = "Samudayah || Contact"/>
             <Row className='contact_row_bg' >
             </Row>
             <Row className='contact_row_text' >

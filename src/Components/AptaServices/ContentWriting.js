@@ -5,12 +5,14 @@ import SeoIcon from '../../Utils/Icons/seo.svg'
 import BlogIcon from '../../Utils/Icons/blog.svg'
 import DescriptionIcon from '../../Utils/Icons/description.svg'
 import WriteIcon from '../../Utils/Icons/write.svg'
+import SEO from '../SEO/SEO'
 
 
 export default function ContentWriting() {
     return (
         <div>
             <Container fluid className='content_container'>
+            <SEO title = "Samudayah || Content Writing"/>
                 <Row className='content_row'>  </Row>
                 <Row>
                     <Col className='content_col2'> “Content builds relationships. Relationships are built on trust.<br /> Trust drives revenue.”</Col>

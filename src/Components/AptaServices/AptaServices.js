@@ -13,12 +13,14 @@ import RocketIcon from '../../Utils/Icons/rocket.svg'
 import ShieldIcon from '../../Utils/Icons/shield.svg'
 import SecurityIcon from '../../Utils/Icons/security.svg'
 import { NavLink, useHistory } from 'react-router-dom'
+import SEO from '../SEO/SEO'
 
 export default function AptaServices() {
     const history = useHistory();
     return (
         <>
             <Container fluid className='our_work_container' >
+            <SEO title = "Samudayah || Services"/>
             <Row className='our_work_row' >
                 <Col xl={6} lg={6} md={11} sm={11} xs={11}   className='our_work_col' >
                     <div className='our_work_text_div' >

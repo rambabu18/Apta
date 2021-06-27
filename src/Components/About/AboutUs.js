@@ -4,10 +4,12 @@ import './AboutUs.css'
 import SettingIcon from '../../Utils/Icons/application.svg'
 import MenuIcon from '../../Utils/Icons/menu.svg'
 import FileIcon from '../../Utils/Icons/image.svg'
+import SEO from '../SEO/SEO'
 
 export default function AboutUs() {
     return (
         <Container fluid className='about_us_container' >
+            <SEO title = "Samudayah || About Us"/>
             <Row className='about_us_row_text' >
                 <Col className='about_us_col_text' > <span >About Us</span></Col>
             </Row>

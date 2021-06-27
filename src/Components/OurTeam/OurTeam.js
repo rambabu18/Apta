@@ -7,10 +7,12 @@ import SivaIcon from '../../Utils/Images/Image2.jpeg'
 import SunithaIcon1 from '../../Utils/Images/Image1.jpeg'
 import RamIcon from '../../Utils/Images/Image3.jpg'
 import ShravaniIcon from '../../Utils/Images/Image4.jpg'
+import SEO from '../SEO/SEO'
 
 export default function OurTeam() {
     return (
         <Container fluid className='our_team_container' >
+            <SEO title="Samudayah || Our Team" />
             <Row className='our_team_row' >
                 <Col xl={6} md={12} sm={12} xs={12} className='our_team_col' >
                     <span className='our_team_col_span' >Our Team </span> <br />
@@ -32,9 +34,9 @@ export default function OurTeam() {
                 </Col>
                 <Col xl={4}>
                     <Figure>
-                        <Figure.Image className='our_team_icon' alt="Loading.." src={SivaIcon} />
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={SunithaIcon1} />
                         <Figure.Caption>
-                            <h3 className='our_team_global_h3' >Siva Kumar  Kesanapalli</h3>
+                            <h3 className='our_team_global_h3' > Sunitha  Kesanapalli </h3>
                             <h6 className='our_team_global_h6'> Managing Director </h6>
                             <h6 className='our_team_global_h6' >(Canada)</h6>
                         </Figure.Caption>
@@ -42,10 +44,10 @@ export default function OurTeam() {
                 </Col>
                 <Col xl={4}>
                     <Figure>
-                        <Figure.Image className='our_team_icon' alt="Loading.." src={SunithaIcon1} />
+                        <Figure.Image className='our_team_icon' alt="Loading.." src={SivaIcon} />
                         <Figure.Caption>
-                            <h6 className='our_team_global_h3'>Sunitha  Kesanapalli</h6>
-                            <h6 className='our_team_global_h6'>Technology Consultant </h6>
+                            <h6 className='our_team_global_h3'>Siva Kumar  Kesanapalli</h6>
+                            <h6 className='our_team_global_h6'>Director & Technology Lead   </h6>
                             <h6 className='our_team_global_h6'>(Canada)</h6>
                         </Figure.Caption>
                     </Figure>
@@ -81,7 +83,7 @@ export default function OurTeam() {
                     </Figure>
                 </Col>
             </Row>
-            <Row className='our_team_row_regional_team' >
+            {/* <Row className='our_team_row_regional_team' >
                 <Col xl={12} className='our_team_row_team_h3'> <h3>Regional Leadership</h3>  </Col>
                 <Col xl={4} >
                     <Figure>
@@ -113,7 +115,7 @@ export default function OurTeam() {
                         </Figure.Caption>
                     </Figure>
                 </Col>
-            </Row>
+            </Row> */}
         </Container>
     )
 }
