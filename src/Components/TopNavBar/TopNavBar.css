@@ -1,3 +1,6 @@
+.top_nav_bar{
+    background-color: rgb(208, 221, 245) !important;
+}
 .top_nav_brand{
     font-size: 18px;
     font-weight: 900;
@@ -36,7 +39,7 @@
     margin-top: 15px;
     margin-left: 5px;
     width: 165px;
-    background: var(--text-color-fff) !important;
+    background-color: rgb(208, 221, 245) !important;
     border: 1px solid #E5E5E5;
     border-radius: 5px;
     box-shadow: 0px 3px 6px #00000019;

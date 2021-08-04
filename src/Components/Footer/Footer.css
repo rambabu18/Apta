@@ -26,6 +26,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .footer_text{
@@ -37,6 +38,13 @@
     font-weight: 600;
     font-style: normal;
     line-height: 1.4;
+}
+.footer_text3{
+    cursor: pointer;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1;
+    color: rgb(68, 114, 196);
 }
 .footer_text2{
     cursor: pointer;

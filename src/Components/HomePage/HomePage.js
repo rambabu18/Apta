@@ -14,7 +14,7 @@ export default function HomePage() {
             <Container fluid className='home_page_container' >
                 <SEO title = "Samudayah || Home"/>
                 <Row>
-                    <Carousel >
+                    <Carousel style={{width:"100%"}} >
                         {
                             SildeData.map((data) => (
                                 <Carousel.Item>

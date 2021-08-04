@@ -15,30 +15,30 @@ export default function Footer() {
             <Row className='footer_row'>
                 <Col xl={3} lg={3} md={6} sm={6} xs={6} className='footer_text' >
                     <h3 className='footer_text1'>Information</h3>
-                    <h5 onClick={() => history.push('/about')} className='footer_text2'> About Us</h5>
-                    <h6 className='footer_text2'>Privacy Policy</h6>
-                    <h6 onClick={() => history.push('/our/team')} className='footer_text2'>Our Team </h6>
+                    <h5 onClick={() => history.push('/about')} className='footer_text3'> About Us</h5>
+                    <h6 className='footer_text3'>Privacy Policy</h6>
+                    <h6 onClick={() => history.push('/our/team')} className='footer_text3'>Our Team </h6>
                 </Col>
                 <Col xl={3} lg={3} md={4} sm={6} xs={6} className='footer_text'>
                     <h3 className='footer_text1'>Services</h3>
-                    <h6 onClick={() => history.push('/services/web')} className='footer_text2'>Web Development</h6>
-                    <h6 onClick={() => history.push('/services/mobile')} className='footer_text2'>Mobile Development</h6>
-                    <h6 onClick={() => history.push('/services/digital')} className='footer_text2'>Digital Marketing</h6>
+                    <h6 onClick={() => history.push('/services/web')} className='footer_text3'>Web Development</h6>
+                    <h6 onClick={() => history.push('/services/mobile')} className='footer_text3'>Mobile Development</h6>
+                    <h6 onClick={() => history.push('/services/digital')} className='footer_text3'>Digital Marketing</h6>
                 </Col>
                 <Col xl={3} lg={3} md={6} sm={6} xs={6} className='footer_text'>
                     <h3 className='footer_text1'>Support</h3>
-                    <h6 onClick={() => history.push('/contact')} className='footer_text2'>Contact Us</h6>
+                    <h6 onClick={() => history.push('/contact')} className='footer_text3'>Contact Us</h6>
                 </Col>
                 <Col xl={3} lg={3} md={4} sm={6} xs={6} className='footer_text'>
                     <h3 className='footer_text1'>Follow Us</h3>
-                    <img className='footer_social_icon' src={FacebookIcon} alt='Loading..' />
-                    <img className='footer_social_icon' src={InstaIcon} alt='Loading..' />
-                    <img className='footer_social_icon' src={LinkedInIcon} alt='Loading..' />
+                   <a href="https://www.facebook.com/Samudaya-Technologies-103978528571325/" target="_blank" rel="noopener noreferrer" > <img className='footer_social_icon' src={FacebookIcon} alt='Loading..' /> </a>
+                   <a href="https://www.instagram.com/samudayah_technologies/" target="_blank" rel="noopener noreferrer"> <img className='footer_social_icon' src={InstaIcon} alt='Loading..' /> </a>
+                   <a href="https://www.linkedin.com/in/samudaya-tech" target="_blank" rel="noopener noreferrer"  > <img className='footer_social_icon' src={LinkedInIcon} alt='Loading..' /></a>
                 </Col>
             </Row>
             <Row className='footer_row1'>
                 <Col xl={3} lg={5} md={6} sm={12} xs={12} className='footer_text'>
-                    <h6 className='footer_text2'> <img className='footer_location_icon' src={CallIcon} alt='Loading..' /> Contact:+14168796277,+917386211139</h6>
+                    <h6 className='footer_text2'> <img className='footer_location_icon' src={CallIcon} alt='Loading..' /> Contactz:+14168796277,+917386211139</h6>
                 </Col>
                 <Col xl={3} lg={5} md={6} sm={12} xs={12} className='footer_text'>
                     <h6 className='footer_text2'> <img className='footer_location_icon' src={LocationIcon} alt='Loading..' /> Kukatpally, GHMC Telangana, India</h6>
