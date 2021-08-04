@@ -32,9 +32,9 @@ export default function OurTeam() {
                 <Col xl={12} className='our_team_row_team_h3' >
                     <h3  >Global Management Team</h3>
                 </Col>
-                <Col xl={4}>
+                <Col xl={6}>
                     <Figure>
-                        <Figure.Image className='our_team_icon' alt="Loading.." src={SunithaIcon1} />
+                        {/* <Figure.Image className='our_team_icon' alt="Loading.." src={SunithaIcon1} /> */}
                         <Figure.Caption>
                             <h3 className='our_team_global_h3' > Sunitha  Kesanapalli </h3>
                             <h6 className='our_team_global_h6'> Managing Director </h6>
@@ -42,19 +42,20 @@ export default function OurTeam() {
                         </Figure.Caption>
                     </Figure>
                 </Col>
-                <Col xl={4}>
+                <Col xl={6}>
                     <Figure>
-                        <Figure.Image className='our_team_icon' alt="Loading.." src={SivaIcon} />
+                        {/* <Figure.Image className='our_team_icon' alt="Loading.." src={SivaIcon} /> */}
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Siva Kumar  Kesanapalli</h6>
-                            <h6 className='our_team_global_h6'>Director & Technology Lead   </h6>
+                            <h6 className='our_team_global_h6'>Technology head   </h6>
                             <h6 className='our_team_global_h6'>(Canada)</h6>
                         </Figure.Caption>
                     </Figure>
                 </Col>
-                <Col xl={4}>
+                <br/>
+                <Col xl={6}>
                     <Figure>
-                        <Figure.Image className='our_team_icon' alt="Loading.." src={ShravaniIcon} />
+                        {/* <Figure.Image className='our_team_icon' alt="Loading.." src={ShravaniIcon} /> */}
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Shravani Sista</h6>
                             <h6 className='our_team_global_h6'> Digital Marketing & Operations Manager  </h6>
@@ -62,9 +63,9 @@ export default function OurTeam() {
                         </Figure.Caption>
                     </Figure>
                 </Col>
-                <Col xl={4}>
+                <Col xl={6}>
                     <Figure>
-                        <Figure.Image className='our_team_icon' alt="Loading.." src={RamIcon} />
+                        {/* <Figure.Image className='our_team_icon' alt="Loading.." src={RamIcon} /> */}
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Rambabu Chennaram</h6>
                             <h6 className='our_team_global_h6'> Technology Operations Manager </h6>
@@ -72,9 +73,10 @@ export default function OurTeam() {
                         </Figure.Caption>
                     </Figure>
                 </Col>
-                <Col xl={4} >
+                <br/>
+                <Col xl={6} >
                     <Figure>
-                        <Figure.Image className='our_team_icon' alt="Loading.." src={GirlIcon} />
+                        {/* <Figure.Image className='our_team_icon' alt="Loading.." src={GirlIcon} /> */}
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Prasanna Arikapalli </h6>
                             <h6 className='our_team_global_h6'> Content Writer </h6>
