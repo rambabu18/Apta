@@ -21,7 +21,7 @@ export default function ContactUs() {
             <Row className='contact_row_location' >
                 <Col xl={5} lg={4} md={5} sm={6} xs={6} >
                     <h3 className='contact_location_text1'> Location</h3>
-                    <h5 className='contact_location_text2'> Kukatpally, GHMC</h5>
+                    <h5 className='contact_location_text2'> Kukatpally, HYD</h5>
                     <h6 className='contact_location_text2'>Telangana, India</h6>
                 </Col>
                 <Col xl={4} lg={5} md={5} sm={6} xs={6} >
@@ -33,7 +33,7 @@ export default function ContactUs() {
             <Row className='contact_row_location' >
                 <Col xl={5} lg={4} md={5} sm={6} xs={6} >
                     <h3 className='contact_location_text1'>Contact Us</h3>
-                    <h6 className='contact_location_text2'> <Image className='contact_us_icon' src={CallIcon} alt='Loading..' /> +919848032919</h6>
+                    <h6 className='contact_location_text2'> <Image className='contact_us_icon' src={CallIcon} alt='Loading..' /> +917386211139</h6>
                     <h6 className='contact_location_text3'>  <Image className='contact_us_icon' src={EmailIcon} alt='Loading..' />info@samudayah.com</h6>
                 </Col>
                 <Col xl={4} lg={5} md={5} sm={6} xs={6} >

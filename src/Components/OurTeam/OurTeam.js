@@ -47,7 +47,7 @@ export default function OurTeam() {
                         {/* <Figure.Image className='our_team_icon' alt="Loading.." src={SivaIcon} /> */}
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Siva Kumar  Kesanapalli</h6>
-                            <h6 className='our_team_global_h6'>Technology head   </h6>
+                            <h6 className='our_team_global_h6'>Technology Head   </h6>
                             <h6 className='our_team_global_h6'>(Canada)</h6>
                         </Figure.Caption>
                     </Figure>
@@ -57,7 +57,7 @@ export default function OurTeam() {
                     <Figure>
                         {/* <Figure.Image className='our_team_icon' alt="Loading.." src={ShravaniIcon} /> */}
                         <Figure.Caption>
-                            <h6 className='our_team_global_h3'>Shravani Sista</h6>
+                            <h6 className='our_team_global_h3'>Shravani </h6>
                             <h6 className='our_team_global_h6'> Digital Marketing & Operations Manager  </h6>
                             <h6 className='our_team_global_h6'>(India)</h6>
                         </Figure.Caption>
@@ -67,8 +67,8 @@ export default function OurTeam() {
                     <Figure>
                         {/* <Figure.Image className='our_team_icon' alt="Loading.." src={RamIcon} /> */}
                         <Figure.Caption>
-                            <h6 className='our_team_global_h3'>Rambabu Chennaram</h6>
-                            <h6 className='our_team_global_h6'> Technology Operations Manager </h6>
+                            <h6 className='our_team_global_h3'>Rambabu </h6>
+                            <h6 className='our_team_global_h6'> Technology Lead & Operations Manager </h6>
                             <h6 className='our_team_global_h6'>(India)</h6>
                         </Figure.Caption>
                     </Figure>
@@ -79,7 +79,7 @@ export default function OurTeam() {
                         {/* <Figure.Image className='our_team_icon' alt="Loading.." src={GirlIcon} /> */}
                         <Figure.Caption>
                             <h6 className='our_team_global_h3'>Prasanna Arikapalli </h6>
-                            <h6 className='our_team_global_h6'> Content Writer </h6>
+                            <h6 className='our_team_global_h6'> Content Consultant </h6>
                             <h6 className='our_team_global_h6'>(India)</h6>
                         </Figure.Caption>
                     </Figure>

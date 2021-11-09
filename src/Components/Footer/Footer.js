@@ -41,7 +41,7 @@ export default function Footer() {
                     <h6 className='footer_text2'> <img className='footer_location_icon' src={CallIcon} alt='Loading..' /> Contactz:+14168796277,+917386211139</h6>
                 </Col>
                 <Col xl={3} lg={5} md={6} sm={12} xs={12} className='footer_text'>
-                    <h6 className='footer_text2'> <img className='footer_location_icon' src={LocationIcon} alt='Loading..' /> Kukatpally, GHMC Telangana, India</h6>
+                    <h6 className='footer_text2'> <img className='footer_location_icon' src={LocationIcon} alt='Loading..' /> Kukatpally, HYD Telangana, India</h6>
                 </Col>
                 <Col xl={3} lg={5} md={6} sm={12} xs={12} className='footer_text'>
                     <h6 className='footer_text2'> <img className='footer_location_icon' src={LocationIcon} alt='Loading..' /> Mississauga, GTA Ontario, Canada</h6>

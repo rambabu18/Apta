@@ -44,7 +44,14 @@
     font-size: 12px;
     font-style: normal;
     line-height: 1;
-    color: rgb(68, 114, 196);
+    color: hsl(0, 8%, 93%);
+}
+.footer_text3:hover{
+    cursor: pointer;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1;
+    color: rgb(27, 125, 238);
 }
 .footer_text2{
     cursor: pointer;
